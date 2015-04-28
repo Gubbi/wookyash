@@ -1,0 +1,1 @@
+<div class="error" style="color:red"><?php echo $error?></div>

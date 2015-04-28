@@ -1,0 +1,1041 @@
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W17&amount=350.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Sandeep&billing_contact.last_name=K&billing_contact.email=sandeep%40bilent.in&billing_contact.address=234%2C+SRS+Layout&billing_contact.city=Bangalore&billing_contact.state=KA&billing_contact.pincode=591201&billing_contact.phone=08050112299&shipping_contact.first_name=Sandeep&shipping_contact.last_name=K&shipping_contact.address=Sandeep%2CSandeep&shipping_contact.city=Bangalore&shipping_contact.state=KA&shipping_contact.pincode=591201&shipping_contact.phone=08050112299
+Response: {"status":"pending","shipping_contact":{"city":"Bangalore","first_name":"Sandeep","last_name":"K","country":null,"pincode":591201,"phone":"08050112299","state":"KA","address":"Sandeep,Sandeep","email":null},"fee":17.34,"order_id":"W17","sms_enabled":true,"livemode":false,"amount":350,"id":"T08389876","cancellation_details":null,"fee_details":[{"amount":13.65,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"3.9%"},{"amount":1.69,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b913.65"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"Bangalore","first_name":"Sandeep","last_name":"K","country":null,"pincode":591201,"phone":"08050112299","state":"KA","address":"234, SRS Layout","email":"sandeep@bilent.in"},"is_dvp":false,"capture_details":null,"created_at":1429558885,"expires_on":1429645285}
+Request2: https://api.kyash.in/v1/paymentpoints/591201
+Request: https://api.kyash.in/v1/paymentpoints/591201
+Response: [{"phone":"","address":"Womens College Complex, Near Bus Stand","shop_name":"SHRI YERRISWAMY CRIDIT"}]
+Request2: https://api.kyash.in/v1/paymentpoints/560078
+Request: https://api.kyash.in/v1/paymentpoints/560078
+Response: [{"phone":"","address":"1549, E End Circle JP Nagar 3rd Phs","shop_name":"S V COMMUNICATIONS"},{"phone":"","address":"24, 4th Cross Sarakki Gate Kanakapura Main Road JP Nagar","shop_name":"B S K COMPUTER SOLUTIONS"},{"phone":"","address":"27, Jagruthi Colony 13th Main Ptnhalli Main Road JP Nagar 7th Phs","shop_name":"THE LINKS"}]
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W18&amount=550.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Sandeep&billing_contact.last_name=K&billing_contact.email=sandeep%40bilent.in&billing_contact.address=234%2C+SRS+Layout&billing_contact.city=Bangalore&billing_contact.state=KA&billing_contact.pincode=591201&billing_contact.phone=08050112299&shipping_contact.first_name=Sandeep&shipping_contact.last_name=K&shipping_contact.address=Sandeep%2CSandeep&shipping_contact.city=Bangalore&shipping_contact.state=KA&shipping_contact.pincode=591201&shipping_contact.phone=08050112299
+Response: {"status":"pending","shipping_contact":{"city":"Bangalore","first_name":"Sandeep","last_name":"K","country":null,"pincode":591201,"phone":"08050112299","state":"KA","address":"Sandeep,Sandeep","email":null},"fee":26.1,"order_id":"W18","sms_enabled":true,"livemode":false,"amount":550,"id":"T17967709","cancellation_details":null,"fee_details":[{"amount":21.45,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"3.9%"},{"amount":2.65,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b921.45"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"Bangalore","first_name":"Sandeep","last_name":"K","country":null,"pincode":591201,"phone":"08050112299","state":"KA","address":"234, SRS Layout","email":"sandeep@bilent.in"},"is_dvp":false,"capture_details":null,"created_at":1429559145,"expires_on":1429645545}
+Request2: https://api.kyash.in/v1/paymentpoints/591201
+Request: https://api.kyash.in/v1/paymentpoints/591201
+Response: [{"phone":"","address":"Womens College Complex, Near Bus Stand","shop_name":"SHRI YERRISWAMY CRIDIT"}]
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W19&amount=100.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Sandeep&billing_contact.last_name=K&billing_contact.email=sandeep%40bilent.in&billing_contact.address=234%2C+SRS+Layout&billing_contact.city=Bangalore&billing_contact.state=KA&billing_contact.pincode=591201&billing_contact.phone=08050112299&shipping_contact.first_name=Sandeep&shipping_contact.last_name=K&shipping_contact.address=Sandeep%2CSandeep&shipping_contact.city=Bangalore&shipping_contact.state=KA&shipping_contact.pincode=591201&shipping_contact.phone=08050112299
+Response: {"status":"pending","shipping_contact":{"city":"Bangalore","first_name":"Sandeep","last_name":"K","country":null,"pincode":591201,"phone":"08050112299","state":"KA","address":"Sandeep,Sandeep","email":null},"fee":15.48,"order_id":"W19","sms_enabled":true,"livemode":false,"amount":100,"id":"T16123445","cancellation_details":null,"fee_details":[{"amount":12,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"Min \u20b912"},{"amount":1.48,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b912.0"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"Bangalore","first_name":"Sandeep","last_name":"K","country":null,"pincode":591201,"phone":"08050112299","state":"KA","address":"234, SRS Layout","email":"sandeep@bilent.in"},"is_dvp":false,"capture_details":null,"created_at":1429560721,"expires_on":1429647121}
+Request2: https://api.kyash.in/v1/paymentpoints/591201
+Request: https://api.kyash.in/v1/paymentpoints/591201
+Response: [{"phone":"","address":"Womens College Complex, Near Bus Stand","shop_name":"SHRI YERRISWAMY CRIDIT"}]
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W20&amount=250.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Sandeep&billing_contact.last_name=K&billing_contact.email=sandeep%40bilent.in&billing_contact.address=234%2C+SRS+Layout&billing_contact.city=Bangalore&billing_contact.state=KA&billing_contact.pincode=591201&billing_contact.phone=08050112299&shipping_contact.first_name=Sandeep&shipping_contact.last_name=K&shipping_contact.address=Sandeep%2CSandeep&shipping_contact.city=Bangalore&shipping_contact.state=KA&shipping_contact.pincode=591201&shipping_contact.phone=08050112299
+Response: {"status":"pending","shipping_contact":{"city":"Bangalore","first_name":"Sandeep","last_name":"K","country":null,"pincode":591201,"phone":"08050112299","state":"KA","address":"Sandeep,Sandeep","email":null},"fee":15.48,"order_id":"W20","sms_enabled":true,"livemode":false,"amount":250,"id":"T23867394","cancellation_details":null,"fee_details":[{"amount":12,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"Min \u20b912"},{"amount":1.48,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b912.0"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"Bangalore","first_name":"Sandeep","last_name":"K","country":null,"pincode":591201,"phone":"08050112299","state":"KA","address":"234, SRS Layout","email":"sandeep@bilent.in"},"is_dvp":false,"capture_details":null,"created_at":1429561076,"expires_on":1429647476}
+Request2: https://api.kyash.in/v1/paymentpoints/591201
+Request: https://api.kyash.in/v1/paymentpoints/591201
+Response: [{"phone":"","address":"Womens College Complex, Near Bus Stand","shop_name":"SHRI YERRISWAMY CRIDIT"}]
+Request: https://api.kyash.in/v1/kyashcodes/T08389876/cancel => reason=requested_by_customer
+Response: {"refunded":false,"refund_amount":null,"should_refund":false,"reason":"requested_by_customer","charge_paid_by":"customer","cancelled_at":1429561436,"refund_charges":null}
+Request: https://api.kyash.in/v1/kyashcodes/T16123445/cancel => reason=requested_by_customer
+Response: {"refunded":false,"refund_amount":null,"should_refund":false,"reason":"requested_by_customer","charge_paid_by":"customer","cancelled_at":1429561559,"refund_charges":null}
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W21&amount=900.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Sandeep&billing_contact.last_name=K&billing_contact.email=sandeep%40bilent.in&billing_contact.address=234%2C+SRS+Layout&billing_contact.city=Bangalore&billing_contact.state=KA&billing_contact.pincode=591201&billing_contact.phone=08050112299&shipping_contact.first_name=Sandeep&shipping_contact.last_name=K&shipping_contact.address=Sandeep%2CSandeep&shipping_contact.city=Bangalore&shipping_contact.state=KA&shipping_contact.pincode=591201&shipping_contact.phone=08050112299
+Response: {"status":"pending","shipping_contact":{"city":"Bangalore","first_name":"Sandeep","last_name":"K","country":null,"pincode":591201,"phone":"08050112299","state":"KA","address":"Sandeep,Sandeep","email":null},"fee":41.44,"order_id":"W21","sms_enabled":true,"livemode":false,"amount":900,"id":"T89853523","cancellation_details":null,"fee_details":[{"amount":35.1,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"3.9%"},{"amount":4.34,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b935.1"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"Bangalore","first_name":"Sandeep","last_name":"K","country":null,"pincode":591201,"phone":"08050112299","state":"KA","address":"234, SRS Layout","email":"sandeep@bilent.in"},"is_dvp":false,"capture_details":null,"created_at":1429561670,"expires_on":1429648070}
+Request2: https://api.kyash.in/v1/paymentpoints/591201
+Request: https://api.kyash.in/v1/paymentpoints/591201
+Response: [{"phone":"","address":"Womens College Complex, Near Bus Stand","shop_name":"SHRI YERRISWAMY CRIDIT"}]
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W22&amount=100.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Sandeep&billing_contact.last_name=K&billing_contact.email=sandeep%40bilent.in&billing_contact.address=234%2C+SRS+Layout&billing_contact.city=Bangalore&billing_contact.state=KA&billing_contact.pincode=591201&billing_contact.phone=08050112299&shipping_contact.first_name=Sandeep&shipping_contact.last_name=K&shipping_contact.address=Sandeep%2CSandeep&shipping_contact.city=Bangalore&shipping_contact.state=KA&shipping_contact.pincode=591201&shipping_contact.phone=08050112299
+Response: {"status":"pending","shipping_contact":{"city":"Bangalore","first_name":"Sandeep","last_name":"K","country":null,"pincode":591201,"phone":"08050112299","state":"KA","address":"Sandeep,Sandeep","email":null},"fee":15.48,"order_id":"W22","sms_enabled":true,"livemode":false,"amount":100,"id":"T86633760","cancellation_details":null,"fee_details":[{"amount":12,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"Min \u20b912"},{"amount":1.48,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b912.0"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"Bangalore","first_name":"Sandeep","last_name":"K","country":null,"pincode":591201,"phone":"08050112299","state":"KA","address":"234, SRS Layout","email":"sandeep@bilent.in"},"is_dvp":false,"capture_details":null,"created_at":1429562355,"expires_on":1429648755}
+Request2: https://api.kyash.in/v1/paymentpoints/591201
+Request: https://api.kyash.in/v1/paymentpoints/591201
+Response: [{"phone":"","address":"Womens College Complex, Near Bus Stand","shop_name":"SHRI YERRISWAMY CRIDIT"}]
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W23&amount=200.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Sandeep&billing_contact.last_name=K&billing_contact.email=sandeep%40bilent.in&billing_contact.address=234%2C+SRS+Layout&billing_contact.city=Bangalore&billing_contact.state=KA&billing_contact.pincode=591201&billing_contact.phone=08050112299&shipping_contact.first_name=Sandeep&shipping_contact.last_name=K&shipping_contact.address=Sandeep%2CSandeep&shipping_contact.city=Bangalore&shipping_contact.state=KA&shipping_contact.pincode=591201&shipping_contact.phone=08050112299
+Response: {"status":"pending","shipping_contact":{"city":"Bangalore","first_name":"Sandeep","last_name":"K","country":null,"pincode":591201,"phone":"08050112299","state":"KA","address":"Sandeep,Sandeep","email":null},"fee":15.48,"order_id":"W23","sms_enabled":true,"livemode":false,"amount":200,"id":"T85929511","cancellation_details":null,"fee_details":[{"amount":12,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"Min \u20b912"},{"amount":1.48,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b912.0"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"Bangalore","first_name":"Sandeep","last_name":"K","country":null,"pincode":591201,"phone":"08050112299","state":"KA","address":"234, SRS Layout","email":"sandeep@bilent.in"},"is_dvp":false,"capture_details":null,"created_at":1429563005,"expires_on":1429566605}
+Request2: https://api.kyash.in/v1/paymentpoints/591201
+Request: https://api.kyash.in/v1/paymentpoints/591201
+Response: [{"phone":"","address":"Womens College Complex, Near Bus Stand","shop_name":"SHRI YERRISWAMY CRIDIT"}]
+Array
+(
+    [order_id] => W18
+    [kyash_code] => T17967709
+    [status] => expired
+    [paid_by] => 
+    [amount] => 
+)
+
+Authorization:
+HTTP/1.1 401 Unauthorized - Signature not found in the header or damaged
+Array
+(
+    [order_id] => W20
+    [kyash_code] => T23867394
+    [status] => expired
+    [paid_by] => 
+    [amount] => 
+)
+
+Authorization:
+HTTP/1.1 401 Unauthorized - Signature not found in the header or damaged
+Array
+(
+    [order_id] => W21
+    [kyash_code] => T89853523
+    [status] => expired
+    [paid_by] => 
+    [amount] => 
+)
+
+Authorization:
+HTTP/1.1 401 Unauthorized - Signature not found in the header or damaged
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W24&amount=300.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Expiry&billing_contact.last_name=K&billing_contact.email=sandeep%40bilent.in&billing_contact.address=234%2C+SRS+Layout&billing_contact.city=Bangalore&billing_contact.state=KA&billing_contact.pincode=591201&billing_contact.phone=08050112299&shipping_contact.first_name=Expiry&shipping_contact.last_name=K&shipping_contact.address=Expiry%2CExpiry&shipping_contact.city=Bangalore&shipping_contact.state=KA&shipping_contact.pincode=591201&shipping_contact.phone=08050112299
+Response: {"status":"pending","shipping_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":591201,"phone":"08050112299","state":"KA","address":"Expiry,Expiry","email":null},"fee":15.48,"order_id":"W24","sms_enabled":true,"livemode":false,"amount":300,"id":"T23904758","cancellation_details":null,"fee_details":[{"amount":12,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"Min \u20b912"},{"amount":1.48,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b912.0"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":591201,"phone":"08050112299","state":"KA","address":"234, SRS Layout","email":"sandeep@bilent.in"},"is_dvp":false,"capture_details":null,"created_at":1429648455,"expires_on":1429652055}
+Request2: https://api.kyash.in/v1/paymentpoints/591201
+Request: https://api.kyash.in/v1/paymentpoints/591201
+Response: [{"phone":"","address":"Womens College Complex, Near Bus Stand","shop_name":"SHRI YERRISWAMY CRIDIT"}]
+Array
+(
+    [order_id] => W22
+    [kyash_code] => T86633760
+    [status] => expired
+    [paid_by] => 
+    [amount] => 
+)
+
+Authorization:
+HTTP/1.1 401 Unauthorized - Signature not found in the header or damaged
+Array
+(
+    [order_id] => W24
+    [kyash_code] => T23904758
+    [status] => expired
+    [paid_by] => 
+    [amount] => 
+)
+
+Authorization:
+HTTP/1.1 401 Unauthorized - Signature not found in the header or damaged
+Request2: https://api.kyash.in/v1/paymentpoints/591201
+Request: https://api.kyash.in/v1/paymentpoints/591201
+Response: [{"phone":"","address":"Womens College Complex, Near Bus Stand","shop_name":"SHRI YERRISWAMY CRIDIT"}]
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W25&amount=200.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Expiry&billing_contact.last_name=K&billing_contact.email=sandeep%40bilent.in&billing_contact.address=234%2C+SRS+Layout&billing_contact.city=Bangalore&billing_contact.state=KA&billing_contact.pincode=591201&billing_contact.phone=08050112299&shipping_contact.first_name=Expiry&shipping_contact.last_name=K&shipping_contact.address=Expiry%2CExpiry&shipping_contact.city=Bangalore&shipping_contact.state=KA&shipping_contact.pincode=591201&shipping_contact.phone=08050112299
+Response: {"status":"pending","shipping_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":591201,"phone":"08050112299","state":"KA","address":"Expiry,Expiry","email":null},"fee":15.48,"order_id":"W25","sms_enabled":true,"livemode":false,"amount":200,"id":"T96191012","cancellation_details":null,"fee_details":[{"amount":12,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"Min \u20b912"},{"amount":1.48,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b912.0"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":591201,"phone":"08050112299","state":"KA","address":"234, SRS Layout","email":"sandeep@bilent.in"},"is_dvp":false,"capture_details":null,"created_at":1429795296,"expires_on":1429798896}
+Request2: https://api.kyash.in/v1/paymentpoints/591201
+Request: https://api.kyash.in/v1/paymentpoints/591201
+Response: [{"phone":"","address":"Womens College Complex, Near Bus Stand","shop_name":"SHRI YERRISWAMY CRIDIT"}]
+Request2: https://api.kyash.in/v1/paymentpoints/591201
+Request: https://api.kyash.in/v1/paymentpoints/591201
+Response: [{"phone":"","address":"Womens College Complex, Near Bus Stand","shop_name":"SHRI YERRISWAMY CRIDIT"}]
+Array
+(
+    [order_id] => W25
+    [kyash_code] => T96191012
+    [status] => paid
+    [paid_by] => 8050112299
+    [amount] => 200
+)
+
+Authorization:
+HTTP/1.1 401 Unauthorized - Signature not found in the header or damaged
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W26&amount=100.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Expiry&billing_contact.last_name=K&billing_contact.email=sandeep%40bilent.in&billing_contact.address=234%2C+SRS+Layout&billing_contact.city=Bangalore&billing_contact.state=KA&billing_contact.pincode=591201&billing_contact.phone=08050112299&shipping_contact.first_name=Expiry&shipping_contact.last_name=K&shipping_contact.address=Expiry%2CExpiry&shipping_contact.city=Bangalore&shipping_contact.state=KA&shipping_contact.pincode=591201&shipping_contact.phone=08050112299
+Response: {"status":"pending","shipping_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":591201,"phone":"08050112299","state":"KA","address":"Expiry,Expiry","email":null},"fee":15.48,"order_id":"W26","sms_enabled":true,"livemode":false,"amount":100,"id":"T03962960","cancellation_details":null,"fee_details":[{"amount":12,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"Min \u20b912"},{"amount":1.48,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b912.0"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":591201,"phone":"08050112299","state":"KA","address":"234, SRS Layout","email":"sandeep@bilent.in"},"is_dvp":false,"capture_details":null,"created_at":1429796701,"expires_on":1429800301}
+Request2: https://api.kyash.in/v1/paymentpoints/591201
+Request: https://api.kyash.in/v1/paymentpoints/591201
+Response: [{"phone":"","address":"Womens College Complex, Near Bus Stand","shop_name":"SHRI YERRISWAMY CRIDIT"}]
+Array
+(
+    [order_id] => W26
+    [kyash_code] => T03962960
+    [status] => paid
+    [paid_by] => 9003269717
+    [amount] => 100
+)
+
+Array
+(
+    [User-Agent] => Python-urllib/2.7 AppEngine-Google; (+http://code.google.com/appengine; appid: s~bilentapp)
+    [Accept-Encoding] => gzip,deflate
+    [Connection] => close
+    [Content-Length] => 135
+    [X-Cloud-Trace-Context] => ChIJR77ibaAWZIIRvH-S-sYO59sRz-lFB9jb8_4YAA
+    [Content-Type] => application/x-www-form-urlencoded
+    [Host] => www.wordpress.adlok.com
+)
+
+Authorization:
+HTTP/1.1 401 Unauthorized - Signature not found in the header or damaged
+Request2: https://api.kyash.in/v1/paymentpoints/591201
+Request: https://api.kyash.in/v1/paymentpoints/591201
+Response: [{"phone":"","address":"Womens College Complex, Near Bus Stand","shop_name":"SHRI YERRISWAMY CRIDIT"}]
+Request2: https://api.kyash.in/v1/paymentpoints/591201
+Request: https://api.kyash.in/v1/paymentpoints/591201
+Response: [{"phone":"","address":"Womens College Complex, Near Bus Stand","shop_name":"SHRI YERRISWAMY CRIDIT"}]
+Request2: https://api.kyash.in/v1/paymentpoints/591201
+Request: https://api.kyash.in/v1/paymentpoints/591201
+Response: [{"phone":"","address":"Womens College Complex, Near Bus Stand","shop_name":"SHRI YERRISWAMY CRIDIT"}]
+Request2: https://api.kyash.in/v1/paymentpoints/122001
+Request: https://api.kyash.in/v1/paymentpoints/122001
+Response: [{"phone":"","address":"Dhankot","shop_name":"VIJAY COMMUNICATION & GIFT GALLERY"},{"phone":"","address":"Sec-10, A Road Near Govt School Kadipur","shop_name":"SHRI CYBER"},{"phone":"","address":"207, Bhawani Enclave Near Hanuman Mandir","shop_name":"PARVEEN MUSIC POINT"},{"phone":"","address":"204\/11, Shivpuri","shop_name":"SHANKAR ELECTRICALS"},{"phone":"","address":"5, Basai Road Near NK Factory","shop_name":"PSB COMMUNICATION"},{"phone":"","address":"7A Rajendra Park Ward#30","shop_name":"NK TELECOM"},{"phone":"","address":"A 89, Rajendra Park","shop_name":"PRINCE COMPUTER CENTER"},{"phone":"","address":"482\/4, Shakti Park","shop_name":"NITIN COMMUNICATION"},{"phone":"","address":"Near Sec-10A, Khandsa Road","shop_name":"PRABHATI PANSARI"},{"phone":"","address":"24, Basai Near Arya Samaj Mandir","shop_name":"RAMAN COMMUNICATION"},{"phone":"","address":"199, Opp Ramleela Ground Bhim Nagar","shop_name":"SHRI DIVYA SAI COMMUNICATION"},{"phone":"","address":"Wz 9, Near Metro Hospital Main Bajgera Chok New Palam Vihar","shop_name":"VS CYBERZONE"},{"phone":"","address":"24, Block H Dharam Colony Palam Vihar Extension","shop_name":"UNIQUE SOLUTION"},{"phone":"","address":"201, A Sect 8, Surya Vihar","shop_name":"RAJENDER COMMUNICATION"},{"phone":"","address":"Blk-C Sec-45","shop_name":"SRF"},{"phone":"","address":"B-2, Phs-1, New Palam Vihar","shop_name":"TRUST NETWORK SOLUTION"},{"phone":"","address":"374\/3, Prem Nagar Mata Road","shop_name":"SATYAM ENTERPRISES"},{"phone":"","address":"Dav School Market Near Mata Mandir Khandsa Road","shop_name":"SERVICE POINT"},{"phone":"","address":"546\/11, Nehru Lane","shop_name":"VAIBHAV GENERAL STORE"},{"phone":"","address":"Sheetla Mata Road Near Prince Vatika Opp Sec-5","shop_name":"YASH COMPUTER"},{"phone":"","address":"50, Kartarpuri","shop_name":"VARUN COMMUNICATION"},{"phone":"","address":"Bajghera Post Office Palam Vihar","shop_name":"SMART MOB ILE"},{"phone":"","address":"Behrampur Near Govt School","shop_name":"SHAKSHI COMMUNICATION"},{"phone":"","address":"555\/17, Rajindra Shopping Center, Sohna Chowk","shop_name":"THE COMPUTER PEOPLE"},{"phone":"","address":"4\/36, Shivaji Nagar","shop_name":"PEHRAWA BOUTIQUE & SERVICES"},{"phone":"","address":"487\/4, Basai Road, Ram Nagar, Near Pashricha Hospital","shop_name":"OM COMMUNICATION"},{"phone":"","address":"F34, Katarpuri Carterpuri","shop_name":"TAXAK COMMUNICATION CENTER"},{"phone":"","address":"120, Bhawani Enclave Near Gov College Sec-9","shop_name":"VANSH TELESERVICES"},{"phone":"","address":"2, Block-C, Phase-1, New Palam Vihar","shop_name":"PRASHANT ENTERPRISES"},{"phone":"","address":"1, Ram Lila Ground, Bhim Nagar","shop_name":"SANSOM GRAPHICS"},{"phone":"","address":"8, Biswa, Khera Dewat Road","shop_name":"GLOBAL RELATIONS"},{"phone":"","address":"200, Bheem Grh Kheri","shop_name":"DAKSH TELECOM"},{"phone":"","address":"Khandsa Road, Near Relince Fresh","shop_name":"HITESH COMMUNICATION"},{"phone":"","address":"21B Sohna Chowk","shop_name":"BHARAT COMMERCE CENTER"},{"phone":"","address":"151, Sec-18, Sarhaul","shop_name":"CITY CYBER"},{"phone":"","address":"Madanpuri Jyoti Park Road, Baldev Nagar","shop_name":"M K ENTERPRISES"},{"phone":"","address":"396\/28, Street#7, Jyoti Park","shop_name":"MANNU COMMUNICATION"},{"phone":"","address":"1462, Sec 10A","shop_name":"KANISHKA ELECTRONICS"},{"phone":"","address":"551\/24, Firoj Gandhi Colony 1,","shop_name":"B K ELECTRONICS & COMMUNICATION"},{"phone":"","address":"1294\/25, Street#4, Arjun Nagar","shop_name":"KOOL TECH SERVICES"},{"phone":"","address":"672\/26, Baldev Nagar Gali 12","shop_name":"INSAN MOBILE SHOP"},{"phone":"","address":"A-10, Shaibkunj New Palam Vihar Phs 3","shop_name":"HIMANSHU COMMUNICATION"},{"phone":"","address":"3, Street#1, Block A Sheetla Colony","shop_name":"ISHWAR COMMUNICATION"},{"phone":"","address":"17\/1, Railway Station, Near Aggarwal Dharmshala","shop_name":"BALAJI TOUR & TRAVEL"},{"phone":"","address":"369\/7, Partap Nagar","shop_name":"GROW SOLUTION"},{"phone":"","address":"4, Railway Road Near Sabji Mandi","shop_name":"AARAV SOLUTION POINT"},{"phone":"","address":"143\/11, Partap Nagar","shop_name":"EKANSH COMMUNICATION"},{"phone":"","address":"A 39, Street#6, Sheetala Enclave","shop_name":"JMD POWER TOOLS"},{"phone":"","address":"Flr-1 Delhi Bittumen Sales Abv Lg","shop_name":"ABHAY COMMUNICATION"},{"phone":"","address":"317\/23, Shakti Nagar","shop_name":"KHUSHI COMMUNICATION"},{"phone":"","address":"C142, Ashok Vihar","shop_name":"BALAJI COMMUNICATION"},{"phone":"","address":"339\/6, Opp Mohanlal Mistri Jacubpura","shop_name":"NEWTECH COMPUTER SOLUTIONS"},{"phone":"","address":"C 6, Near Happy Model School Sheetla Colony","shop_name":"BHARDWAJ ENTERPRISES"},{"phone":"","address":"47\/1, Gupta Colony, Palam Vihar, Block C1","shop_name":"ATUL TRAVELS"},{"phone":"","address":"Block H #41, New Palam Vihar Ph 1","shop_name":"NIGAM MLT-PURP ENTERPRISES"},{"phone":"","address":"334\/1, Rajeev Colony Naharpur Rupa","shop_name":"JITENDER COMMUNICATION"},{"phone":"","address":"243\/14, Ram Nagar, Near Bhuteshwar Mandir","shop_name":"STAR MONEY TRANSFER"},{"phone":"","address":"1395\/4, Street#1 Arjun Nagar","shop_name":"ROHIT COMMUNICATION"},{"phone":"","address":"393\/22C, Ward 20, Shivaji Park","shop_name":"RAJ PHOTO"},{"phone":"","address":"1, Daulatabad Chungi, Rajendra Park","shop_name":"DHEERAJ COMMUNICATION"},{"phone":"","address":"79, Ravi Nagar, Kadipur","shop_name":"SAURABH TELECOM CENTER"},{"phone":"","address":"13, Sikanderpur Badha","shop_name":"TUSHAR PHOTO & COMMUNICATION"},{"phone":"","address":"6\/3, Pandit Wali Gali, khandsa","shop_name":"PALAK P COMMUNICATION"},{"phone":"","address":"42\/1, Naharpur Roopa","shop_name":"OM COMMUNICATION"},{"phone":"","address":"510A\/21, Rajindra Hospital Om Nagar","shop_name":"SHRI SAI COMMUNICATION"},{"phone":"","address":"2\/21, Khandsa Road, Shivaji Nagar","shop_name":"GARG COMMUNICATION"},{"phone":"","address":"1571, Sec-10A","shop_name":"MADHUR STATIONERY"},{"phone":"","address":"1, Govt School, Garhi","shop_name":"HARITASH COMMUNICATION"},{"phone":"","address":"4, South City -I Silokhara","shop_name":"KARAN COMMUNICATION"},{"phone":"","address":"10, Jyoti Park","shop_name":"MILI 2 COMMUNICATION"},{"phone":"","address":"104 Kadipur, Shakti Park","shop_name":"HARI OM COMMUNICATION"},{"phone":"","address":"222\/2, Shakti Nagar Ward#18","shop_name":"GUPTA TANMAY BUSINESS POINT"},{"phone":"","address":"Narsingh Pur","shop_name":"MITHLA COMMUNICATION"},{"phone":"","address":"545\\13, Street#7 Arjun Ngar Near Police Station","shop_name":"SAI COMMUNICATION"},{"phone":"","address":"512, Ward #21, Shivaji Park, Gandhi Nagar","shop_name":"GUPTA COMMUNICATION"},{"phone":"","address":"779, Near Hero Honda Chowk, Khandsa","shop_name":"SHANKAR TELECOM"},{"phone":"","address":"155, Hari Nagar, Naharpur Rupa","shop_name":"SHUBH YATRA COMMUNICATION"},{"phone":"","address":"Shiv Vatika, Khera Dewat Road, Near Sukhbir Kataria Home","shop_name":"MAA BHAGWAT COMMUNICATION"},{"phone":"","address":"544A, Arjun Nagar","shop_name":"SHIVAM COMMUNICATION"},{"phone":"","address":"Bhangrola","shop_name":"SHRI RAM GENERAL STORE"},{"phone":"","address":"Narsingpur","shop_name":"BEDI COMMUNICATION"},{"phone":"","address":"154\/21, Street#1, Raj Nagar","shop_name":"SERVICE POINT"},{"phone":"","address":"69A Sikanderpur Badha","shop_name":"SBS COMMUNICATION"},{"phone":"","address":"40, Shakti Park Kadipur","shop_name":"DEV ELECTRICALS"},{"phone":"","address":"776\/22, Gandhi Nagar, Gali#3","shop_name":"PREM COMMUNICATION"},{"phone":"","address":"Khandsa, Sec-37","shop_name":"POONAM COMMUNICATION"},{"phone":"","address":"128, Gali#3, Khandsa Road Near Sunrise Hospital Shakti Park","shop_name":"YADAV COMMUNICATION"},{"phone":"","address":"164\/4 Hari Nagar","shop_name":"SIYA COMMUNICATION"},{"phone":"","address":"676\/23, Ward#24, Laxmi Garden","shop_name":"SANGEETA COMMUNICATION"},{"phone":"","address":"221\/1 Adarsh Nagar","shop_name":"BALAJI COMMUNICATION"},{"phone":"","address":"Khandsa Road Near Shiv Mandir Khandsa","shop_name":"BHARDWAJ MOBILE"},{"phone":"","address":"Hari Nagar, Opp Haffed Anaj Mandi","shop_name":"RK TELICOM"},{"phone":"","address":"7-A Rajendra Park Wrd -30","shop_name":"N.K. TELECOM"},{"phone":"","address":"367\/21 Om Nagar","shop_name":"YASH COMMUNICATION"},{"phone":"","address":"67, Mohmmadpur Jharsa","shop_name":"DEWATWAL COMMUNICATION"},{"phone":"","address":"2\/7, Street#7, Devilal Nagar","shop_name":"RS GENERAL STORE"},{"phone":"","address":"185\/A, Near Aggarwal Sweets Khandsa","shop_name":"K K COMMUNICATION"},{"phone":"","address":"B283, Sarswati Enclave, Near Sec-10A","shop_name":"SS COMPUTER"},{"phone":"","address":"152\/41A, Naval Kishar HSM Public School Naharpur Rupa","shop_name":"NAVAL KISHOR COMMU"},{"phone":"","address":"506, Sec-14","shop_name":"SUVIDHAA MONEY TRANSFER"},{"phone":"","address":"712\/A\/22 Shivji Park","shop_name":"KHANDELWAL COMMUNICATION"},{"phone":"","address":"Fazilpur Dhani","shop_name":"BALAJEE TELECOM"},{"phone":"","address":"142\/B, Charan Vihar Basai","shop_name":"CHAUHAN COMMUNICATION"},{"phone":"","address":"821\/23 Hira Nagar","shop_name":"PARVEEN COMMUNICATION"},{"phone":"","address":"3\/11, Shiv Murti, Pratap Nagar","shop_name":"MUSKAN COMMUNICATION"},{"phone":"","address":"258, NH 8, Naharpur Rupa, Khandsha","shop_name":"MOHIT COMMUNICATION (RAJEEV COLONY)"},{"phone":"","address":"380\/21 Om Nagar Wrd 19","shop_name":"SUNRISE COMMUNICATION"},{"phone":"","address":"393, Ward#2","shop_name":"SHAMA PARVEEN"},{"phone":"","address":"158, Opp Bank of India, Islampur","shop_name":"SHEKHAWAT COMMUNICATION"},{"phone":"","address":"450\/1, Bajgehara Road Bhim Garh Kheri","shop_name":"SAI SHANI BUSINESS SOLUTION"},{"phone":"","address":"32 Garhi Harsaru, Blk-1","shop_name":"SHRI KRISHNA CYBER"},{"phone":"","address":"1213, Sec-7 Extension","shop_name":"OM STATIONARY"},{"phone":"","address":"B220, Subhash Giri Near Power House Sarswati Enclave Kadipur","shop_name":"BABA COMMUNICATION"},{"phone":"","address":"32, Basai Enclave","shop_name":"GAURAV COMMUNICATION"},{"phone":"","address":"1067, FF, Sec-39","shop_name":"OM COMMUNICATION"},{"phone":"","address":"85, Shakti Park","shop_name":"MOBILE POINT COMMUNICATION"},{"phone":"","address":"786, Rm B7, Ph 2, Nathupur","shop_name":"PRINCE PHOTO DIGITAL STUDIO"},{"phone":"","address":"142, Ashok Vatika Malkhan Singh Colony, Molahera","shop_name":"CHANDAN MUSIC CENTRE"},{"phone":"","address":"732\/13, Ward#13, Pratap Nagar","shop_name":"KAVITA SUNIL"},{"phone":"","address":"21 Tighra Sec-57","shop_name":"JYOTI COMMUNICATION"},{"phone":"","address":"284, Shakti Park, Khandsa Road","shop_name":"JITENDER COMMUNICATION"},{"phone":"","address":"1, Kataria Estate, Hira Nagar","shop_name":"ODISHA ENTERPRISES"},{"phone":"","address":"4, Silokhra","shop_name":"SHRI BALAJI COMMUNICATION"},{"phone":"","address":"Kukrola, Pachgaon, Manesar","shop_name":"SHRI OM ENTERPRISES"},{"phone":"","address":"412, Nai Abadi Basai Road","shop_name":"KRIDAY CYBER JN"},{"phone":"","address":"661\/21 Shanti Nagar","shop_name":"SHUBHAM MEDICAL STORE COSMETIC"},{"phone":"","address":"235, 4, A Hari Nagar","shop_name":"DEV COMMUNICATION"},{"phone":"","address":"600K, Govt School Road Sarhaul Guwari","shop_name":"BHOLE COMMUNICATION (MANJEET)"},{"phone":"","address":"272, Sec-38, Near HDFC Bank","shop_name":"CYBER ZONE"},{"phone":"","address":"293\/15, Nai Basti","shop_name":"DIVYANSHI COMMUNICATION"},{"phone":"","address":"489\/22, Bank Street, Gandhi Nagar","shop_name":"LAXMI COMPUTER & SOLUTION"},{"phone":"","address":"Hayatpur","shop_name":"BHARAT COMMUNICATION"},{"phone":"","address":"895\/35, Sec-12, Near Sheetla Mata Mandir","shop_name":"GARV COMMUNICATION"},{"phone":"","address":"84\/3, Hari Nagar Anaj Mandi","shop_name":"R S COMMUNICATION"},{"phone":"","address":"72, Shanti Bhawan, Main Road, Mohammadpur (Jharsa), Khandsa Road","shop_name":"DHARMVIR MOBILE SHOP"},{"phone":"","address":"740, Bhim Nagar","shop_name":"LIYANA MONEY TRANSFER"},{"phone":"","address":"620, Firoj Gandhi Colony, #1, Basai Road, Kali Mata Mandir","shop_name":"UJJWAL COMMUNICATOIN"},{"phone":"","address":"29\/1, Kadipur, Ravi Nagar","shop_name":"RAMESH COMMUNICATION"},{"phone":"","address":"375, Sheetla Mata Road","shop_name":"BHAVYA COMMUNICATION"},{"phone":"","address":"2083\/3, Street#3, Rajiv Nagar Near J India Garden","shop_name":"OM TECH CYBER"},{"phone":"","address":"411, Nai Abadi, Basai Road","shop_name":"CHHABRA COMMUNICATION"},{"phone":"","address":"288, Khandsa","shop_name":"GROWTH ENTERPRISES"},{"phone":"","address":"111, Saraswati Enclave, Kadipur","shop_name":"HARSH COMMUNICATION"},{"phone":"","address":"A\/44, Surya Vihar, Feroz Gandhi Colony, Housing Board","shop_name":"SONIA PROPERTIES"},{"phone":"","address":"1142\/3, Gali#3, Rajiv Nagar","shop_name":"SALVI COMMUNICATION"},{"phone":"","address":"2095, Rajiv Nagar, Ward-5","shop_name":"RIHAN COMMUNICATION"},{"phone":"","address":"1630-D, Sec-10A","shop_name":"VIPIN COMMUNICATION"},{"phone":"","address":"529, Achraya Puri","shop_name":"VANCE TELICOM"},{"phone":"","address":"861, 8, Biswa","shop_name":"SURAJ COMMUNICATION"},{"phone":"","address":"572\/27, Gali#8, Madanpuri","shop_name":"MANYA INSURANCE SERVICES"}]
+Request2: https://api.kyash.in/v1/paymentpoints/122002
+Request: https://api.kyash.in/v1/paymentpoints/122002
+Response: [{"phone":"","address":"101, Navkriti Arcade Sec-55, Sushant Lok 2","shop_name":"NET ZONE"},{"phone":"","address":"152, Dlf Phs 3","shop_name":"S R & TRADER COMMUNICATION"},{"phone":"","address":"G11, Qutub Plazaq, DLF City, Phs-1","shop_name":"TUSHAR TRAVELS"},{"phone":"","address":"H #393\/17, Hans Enclave Naharpur Road","shop_name":"JAISWAL CALL CENTER"},{"phone":"","address":"G404A GF Sushant Floors Sushant Lok 2 Extn Sec-57","shop_name":"AAPNA G MART"},{"phone":"","address":"1, Opp Metro Pillar #55 Sikanderpur Ghosi","shop_name":"TANNU GENERAL STORE"},{"phone":"","address":"159, Sarswati Vihar, Chakkarpur","shop_name":"GUPTA COMMUNICATION"},{"phone":"","address":"275, Ambedkar Colony Street#7, Chakarpur","shop_name":"MAA SARASWATI COMMUNICATION"},{"phone":"","address":"517 Power House Lane Chakkarpur","shop_name":"KUMAR COMMUNICATION"},{"phone":"","address":"150, Chakkarpur","shop_name":"A 2 Z COMPUTER SOLUTION"},{"phone":"","address":"517, Chakkarpur","shop_name":"A K COMMUNICATION"},{"phone":"","address":"162\/28, Aralias DLF Golf Links, Phase-5","shop_name":"SWASTIK TELECOM"},{"phone":"","address":"749, Nathupur, U-Block, DLF-3, Near Kapil Dairy","shop_name":"NAGESH E-POINT"},{"phone":"","address":"L-10, DLF, Qutab Plaza 1 DLF CIYY 1","shop_name":"DANZY COMMUNICATION"},{"phone":"","address":"329, Street#3 Sikanderpur","shop_name":"YADAV JI COMMUNICATION"},{"phone":"","address":"372, Saraswati Vihar, Chakkarpur","shop_name":"KRISHNA COMMUNICATION"},{"phone":"","address":"Q1\/197, South City-2, Sec-49, Opp Park Hospital","shop_name":"RANA COMMUNICATION"},{"phone":"","address":"Ugf-143, Sushant Lok, Phase-1, Vypar Kendra","shop_name":"AEROFLY"},{"phone":"","address":"Chakkarpur","shop_name":"AKKI COMMUNICATION"},{"phone":"","address":"388, Sarsawti Vihar Sonu Bekri Chakkarpur","shop_name":"DEEPAK GENERAL STORE"}]
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W27&amount=100.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Expiry&billing_contact.last_name=K&billing_contact.email=sandeep%40bilent.in&billing_contact.address=234%2C+SRS+Layout&billing_contact.city=Bangalore&billing_contact.state=KA&billing_contact.pincode=591201&billing_contact.phone=08050112299&shipping_contact.first_name=Expiry&shipping_contact.last_name=K&shipping_contact.address=Expiry%2CExpiry&shipping_contact.city=Bangalore&shipping_contact.state=KA&shipping_contact.pincode=591201&shipping_contact.phone=08050112299
+Response: {"status":"pending","shipping_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":591201,"phone":"08050112299","state":"KA","address":"Expiry,Expiry","email":null},"fee":15.48,"order_id":"W27","sms_enabled":true,"livemode":false,"amount":100,"id":"T99259757","cancellation_details":null,"fee_details":[{"amount":12,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"Min \u20b912"},{"amount":1.48,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b912.0"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":591201,"phone":"08050112299","state":"KA","address":"234, SRS Layout","email":"sandeep@bilent.in"},"is_dvp":false,"capture_details":null,"created_at":1429859936,"expires_on":1429863536}
+Request2: https://api.kyash.in/v1/paymentpoints/591201
+Request: https://api.kyash.in/v1/paymentpoints/591201
+Response: [{"phone":"","address":"Womens College Complex, Near Bus Stand","shop_name":"SHRI YERRISWAMY CRIDIT"}]
+Request2: https://api.kyash.in/v1/paymentpoints/591201
+Request: https://api.kyash.in/v1/paymentpoints/591201
+Response: [{"phone":"","address":"Womens College Complex, Near Bus Stand","shop_name":"SHRI YERRISWAMY CRIDIT"}]
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W28&amount=100.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Expiry&billing_contact.last_name=K&billing_contact.email=sandeep%40bilent.in&billing_contact.address=234%2C+SRS+Layout&billing_contact.city=Bangalore&billing_contact.state=KA&billing_contact.pincode=591201&billing_contact.phone=08050112299&shipping_contact.first_name=Expiry&shipping_contact.last_name=K&shipping_contact.address=Expiry%2CExpiry&shipping_contact.city=Bangalore&shipping_contact.state=KA&shipping_contact.pincode=591201&shipping_contact.phone=08050112299
+Response: {"status":"pending","shipping_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":591201,"phone":"08050112299","state":"KA","address":"Expiry,Expiry","email":null},"fee":15.48,"order_id":"W28","sms_enabled":true,"livemode":false,"amount":100,"id":"T80191436","cancellation_details":null,"fee_details":[{"amount":12,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"Min \u20b912"},{"amount":1.48,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b912.0"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":591201,"phone":"08050112299","state":"KA","address":"234, SRS Layout","email":"sandeep@bilent.in"},"is_dvp":false,"capture_details":null,"created_at":1429860377,"expires_on":1429863977}
+Request2: https://api.kyash.in/v1/paymentpoints/591201
+Request: https://api.kyash.in/v1/paymentpoints/591201
+Response: [{"phone":"","address":"Womens College Complex, Near Bus Stand","shop_name":"SHRI YERRISWAMY CRIDIT"}]
+Request: https://api.kyash.in/v1/kyashcodes/T99259757/cancel => reason=requested_by_customer
+Response: {"refunded":false,"refund_amount":null,"payment_notes":null,"should_refund":false,"reason":"requested_by_customer","charge_paid_by":"customer","cancelled_at":1429860413,"refund_charges":null}
+Request: https://api.kyash.in/v1/kyashcodes/T80191436/cancel => reason=requested_by_customer
+Response: {"refunded":false,"refund_amount":null,"payment_notes":null,"should_refund":false,"reason":"requested_by_customer","charge_paid_by":"customer","cancelled_at":1429861250,"refund_charges":null}
+Request2: https://api.kyash.in/v1/paymentpoints/560078
+Request: https://api.kyash.in/v1/paymentpoints/560078
+Response: [{"phone":"","address":"1549, E End Circle JP Nagar 3rd Phs","shop_name":"S V COMMUNICATIONS"},{"phone":"","address":"24, 4th Cross Sarakki Gate Kanakapura Main Road JP Nagar","shop_name":"B S K COMPUTER SOLUTIONS"},{"phone":"","address":"27, Jagruthi Colony 13th Main Ptnhalli Main Road JP Nagar 7th Phs","shop_name":"THE LINKS"}]
+Request2: https://api.kyash.in/v1/paymentpoints/560077
+Request: https://api.kyash.in/v1/paymentpoints/560077
+Response: [{"phone":"","address":"31\/1, 2nd Phs, 5th Cross, Balaji Krupa Layout Hegde Nagar","shop_name":"GANESH ENTERPRISES"},{"phone":"","address":"49\/1, Near TNT Apt, & ICICI Bank, Thanisandra Main Road","shop_name":"KGN COMPUTERS"},{"phone":"","address":"3, 37\/3, 2nd Cross, Bharath Nagar, Thani Sandra Main Road, Sarai Palya","shop_name":"MUSKAAN ENTERPRISES"},{"phone":"","address":"758\/1, Near Masjid E Jamiya, RK Hegde Nagar","shop_name":"ASSISTIVE SERVICES"},{"phone":"","address":"Hanumanthe Gowda Circle, Kanarayanapura, Kothanur","shop_name":"ASR GLOBAL COMMUNICATIONS"},{"phone":"","address":"228A, Sarai Palya, Thannisandra Main Road","shop_name":"MOHAN MEDICALS"},{"phone":"","address":"Flr-1 Patel Bld Near Kothnur Bus Stop","shop_name":"SRI BALAJI ENTERPRISES"},{"phone":"","address":"406, 1st A Main, B Block, 2nd Stage, Rajaji Nagar","shop_name":"SRIVARI INC"},{"phone":"","address":"16, RK Hegde Nagar","shop_name":"GOOD LUCK ENTERPRISES"},{"phone":"","address":"455, Santhosh Complex, Ramakrishna Hegde Nagar, Near Dr SRK Nagar","shop_name":"SANTHOSH ENTERPRISES"},{"phone":"","address":"Hanumantha Gowda Circle, Kanarayanapura, Kothanur","shop_name":"FRIENDS MOBILES"},{"phone":"","address":"441, 1th Cross, RK Hegde Nagar","shop_name":"F M ENTERPRISSES"},{"phone":"","address":"47, Fuji Arcad, 80Ft Double Road, Dr Shivaram Karantha Nagar, C&E Layout","shop_name":"MB ENTERPRISES"},{"phone":"","address":"5\/1, Thanisandra Main Road, Opp Maruthi Saw Mill, Vidya","shop_name":"M.A. ENTERPRISES"}]
+Request2: https://api.kyash.in/v1/paymentpoints/591201
+Request: https://api.kyash.in/v1/paymentpoints/591201
+Response: [{"phone":"","address":"Womens College Complex, Near Bus Stand","shop_name":"SHRI YERRISWAMY CRIDIT"}]
+Request2: https://api.kyash.in/v1/paymentpoints/590078
+Request: https://api.kyash.in/v1/paymentpoints/590078
+Response: {"status":"error","message":"Sorry, we do not have any payment points in this pincode yet. Please check for a point in a neighboring pincode or order with a different payment method."}
+Request2: https://api.kyash.in/v1/paymentpoints/560077
+Request: https://api.kyash.in/v1/paymentpoints/560077
+Response: [{"phone":"","address":"31\/1, 2nd Phs, 5th Cross, Balaji Krupa Layout Hegde Nagar","shop_name":"GANESH ENTERPRISES"},{"phone":"","address":"49\/1, Near TNT Apt, & ICICI Bank, Thanisandra Main Road","shop_name":"KGN COMPUTERS"},{"phone":"","address":"3, 37\/3, 2nd Cross, Bharath Nagar, Thani Sandra Main Road, Sarai Palya","shop_name":"MUSKAAN ENTERPRISES"},{"phone":"","address":"758\/1, Near Masjid E Jamiya, RK Hegde Nagar","shop_name":"ASSISTIVE SERVICES"},{"phone":"","address":"Hanumanthe Gowda Circle, Kanarayanapura, Kothanur","shop_name":"ASR GLOBAL COMMUNICATIONS"},{"phone":"","address":"228A, Sarai Palya, Thannisandra Main Road","shop_name":"MOHAN MEDICALS"},{"phone":"","address":"Flr-1 Patel Bld Near Kothnur Bus Stop","shop_name":"SRI BALAJI ENTERPRISES"},{"phone":"","address":"406, 1st A Main, B Block, 2nd Stage, Rajaji Nagar","shop_name":"SRIVARI INC"},{"phone":"","address":"16, RK Hegde Nagar","shop_name":"GOOD LUCK ENTERPRISES"},{"phone":"","address":"455, Santhosh Complex, Ramakrishna Hegde Nagar, Near Dr SRK Nagar","shop_name":"SANTHOSH ENTERPRISES"},{"phone":"","address":"Hanumantha Gowda Circle, Kanarayanapura, Kothanur","shop_name":"FRIENDS MOBILES"},{"phone":"","address":"441, 1th Cross, RK Hegde Nagar","shop_name":"F M ENTERPRISSES"},{"phone":"","address":"47, Fuji Arcad, 80Ft Double Road, Dr Shivaram Karantha Nagar, C&E Layout","shop_name":"MB ENTERPRISES"},{"phone":"","address":"5\/1, Thanisandra Main Road, Opp Maruthi Saw Mill, Vidya","shop_name":"M.A. ENTERPRISES"}]
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W29&amount=100.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Expiry&billing_contact.last_name=K&billing_contact.email=sandeep%40bilent.in&billing_contact.address=234%2C+SRS+Layout&billing_contact.city=Bangalore&billing_contact.state=KA&billing_contact.pincode=560077&billing_contact.phone=08050112299&shipping_contact.first_name=Expiry&shipping_contact.last_name=K&shipping_contact.address=Expiry%2CExpiry&shipping_contact.city=Bangalore&shipping_contact.state=KA&shipping_contact.pincode=560077&shipping_contact.phone=08050112299
+Response: {"status":"pending","shipping_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":560077,"phone":"08050112299","state":"KA","address":"Expiry,Expiry","email":null},"fee":15.48,"order_id":"W29","sms_enabled":true,"livemode":false,"amount":100,"id":"T19813395","cancellation_details":null,"fee_details":[{"amount":12,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"Min \u20b912"},{"amount":1.48,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b912.0"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":560077,"phone":"08050112299","state":"KA","address":"234, SRS Layout","email":"sandeep@bilent.in"},"is_dvp":false,"capture_details":null,"created_at":1429869480,"expires_on":1429873080}
+Request2: https://api.kyash.in/v1/paymentpoints/560077
+Request: https://api.kyash.in/v1/paymentpoints/560077
+Response: [{"phone":"","address":"31\/1, 2nd Phs, 5th Cross, Balaji Krupa Layout Hegde Nagar","shop_name":"GANESH ENTERPRISES"},{"phone":"","address":"49\/1, Near TNT Apt, & ICICI Bank, Thanisandra Main Road","shop_name":"KGN COMPUTERS"},{"phone":"","address":"3, 37\/3, 2nd Cross, Bharath Nagar, Thani Sandra Main Road, Sarai Palya","shop_name":"MUSKAAN ENTERPRISES"},{"phone":"","address":"758\/1, Near Masjid E Jamiya, RK Hegde Nagar","shop_name":"ASSISTIVE SERVICES"},{"phone":"","address":"Hanumanthe Gowda Circle, Kanarayanapura, Kothanur","shop_name":"ASR GLOBAL COMMUNICATIONS"},{"phone":"","address":"228A, Sarai Palya, Thannisandra Main Road","shop_name":"MOHAN MEDICALS"},{"phone":"","address":"Flr-1 Patel Bld Near Kothnur Bus Stop","shop_name":"SRI BALAJI ENTERPRISES"},{"phone":"","address":"406, 1st A Main, B Block, 2nd Stage, Rajaji Nagar","shop_name":"SRIVARI INC"},{"phone":"","address":"16, RK Hegde Nagar","shop_name":"GOOD LUCK ENTERPRISES"},{"phone":"","address":"455, Santhosh Complex, Ramakrishna Hegde Nagar, Near Dr SRK Nagar","shop_name":"SANTHOSH ENTERPRISES"},{"phone":"","address":"Hanumantha Gowda Circle, Kanarayanapura, Kothanur","shop_name":"FRIENDS MOBILES"},{"phone":"","address":"441, 1th Cross, RK Hegde Nagar","shop_name":"F M ENTERPRISSES"},{"phone":"","address":"47, Fuji Arcad, 80Ft Double Road, Dr Shivaram Karantha Nagar, C&E Layout","shop_name":"MB ENTERPRISES"},{"phone":"","address":"5\/1, Thanisandra Main Road, Opp Maruthi Saw Mill, Vidya","shop_name":"M.A. ENTERPRISES"}]
+Array
+(
+    [order_id] => W29
+    [kyash_code] => T19813395
+    [status] => paid
+    [paid_by] => 8050112266
+    [amount] => 100
+)
+
+Array
+(
+    [User-Agent] => Python-urllib/2.7 AppEngine-Google; (+http://code.google.com/appengine; appid: s~bilentapp)
+    [Accept-Encoding] => gzip,deflate
+    [Connection] => close
+    [Content-Length] => 135
+    [X-Cloud-Trace-Context] => ChIJtG8P4Azj87QRdmAWbnJP4IYRppqIUmMzrRYYAA
+    [Content-Type] => application/x-www-form-urlencoded
+    [Host] => www.wordpress.adlok.com
+)
+
+Authorization:
+HTTP/1.1 401 Unauthorized - Signature not found in the header or damaged
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W30&amount=550.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Expiry&billing_contact.last_name=K&billing_contact.email=sandeep%40bilent.in&billing_contact.address=234%2C+SRS+Layout&billing_contact.city=Bangalore&billing_contact.state=KA&billing_contact.pincode=560077&billing_contact.phone=08050112299&shipping_contact.first_name=Expiry&shipping_contact.last_name=K&shipping_contact.address=Expiry%2CExpiry&shipping_contact.city=Bangalore&shipping_contact.state=KA&shipping_contact.pincode=560077&shipping_contact.phone=08050112299
+Response: {"status":"pending","shipping_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":560077,"phone":"08050112299","state":"KA","address":"Expiry,Expiry","email":null},"fee":26.1,"order_id":"W30","sms_enabled":true,"livemode":false,"amount":550,"id":"T44942249","cancellation_details":null,"fee_details":[{"amount":21.45,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"3.9%"},{"amount":2.65,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b921.45"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":560077,"phone":"08050112299","state":"KA","address":"234, SRS Layout","email":"sandeep@bilent.in"},"is_dvp":false,"capture_details":null,"created_at":1429871996,"expires_on":1429875596}
+Request2: https://api.kyash.in/v1/paymentpoints/560077
+Request: https://api.kyash.in/v1/paymentpoints/560077
+Response: [{"phone":"","address":"31\/1, 2nd Phs, 5th Cross, Balaji Krupa Layout Hegde Nagar","shop_name":"GANESH ENTERPRISES"},{"phone":"","address":"49\/1, Near TNT Apt, & ICICI Bank, Thanisandra Main Road","shop_name":"KGN COMPUTERS"},{"phone":"","address":"3, 37\/3, 2nd Cross, Bharath Nagar, Thani Sandra Main Road, Sarai Palya","shop_name":"MUSKAAN ENTERPRISES"},{"phone":"","address":"758\/1, Near Masjid E Jamiya, RK Hegde Nagar","shop_name":"ASSISTIVE SERVICES"},{"phone":"","address":"Hanumanthe Gowda Circle, Kanarayanapura, Kothanur","shop_name":"ASR GLOBAL COMMUNICATIONS"},{"phone":"","address":"228A, Sarai Palya, Thannisandra Main Road","shop_name":"MOHAN MEDICALS"},{"phone":"","address":"Flr-1 Patel Bld Near Kothnur Bus Stop","shop_name":"SRI BALAJI ENTERPRISES"},{"phone":"","address":"406, 1st A Main, B Block, 2nd Stage, Rajaji Nagar","shop_name":"SRIVARI INC"},{"phone":"","address":"16, RK Hegde Nagar","shop_name":"GOOD LUCK ENTERPRISES"},{"phone":"","address":"455, Santhosh Complex, Ramakrishna Hegde Nagar, Near Dr SRK Nagar","shop_name":"SANTHOSH ENTERPRISES"},{"phone":"","address":"Hanumantha Gowda Circle, Kanarayanapura, Kothanur","shop_name":"FRIENDS MOBILES"},{"phone":"","address":"441, 1th Cross, RK Hegde Nagar","shop_name":"F M ENTERPRISSES"},{"phone":"","address":"47, Fuji Arcad, 80Ft Double Road, Dr Shivaram Karantha Nagar, C&E Layout","shop_name":"MB ENTERPRISES"},{"phone":"","address":"5\/1, Thanisandra Main Road, Opp Maruthi Saw Mill, Vidya","shop_name":"M.A. ENTERPRISES"}]
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W31&amount=250.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Expiry&billing_contact.last_name=K&billing_contact.email=sandeep%40bilent.in&billing_contact.address=234%2C+SRS+Layout&billing_contact.city=Bangalore&billing_contact.state=KA&billing_contact.pincode=560078&billing_contact.phone=08050112299&shipping_contact.first_name=Expiry&shipping_contact.last_name=K&shipping_contact.address=Expiry%2CExpiry&shipping_contact.city=Bangalore&shipping_contact.state=KA&shipping_contact.pincode=560078&shipping_contact.phone=08050112299
+Response: {"status":"pending","shipping_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":560078,"phone":"08050112299","state":"KA","address":"Expiry,Expiry","email":null},"fee":15.48,"order_id":"W31","sms_enabled":true,"livemode":false,"amount":250,"id":"T56289269","cancellation_details":null,"fee_details":[{"amount":12,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"Min \u20b912"},{"amount":1.48,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b912.0"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":560078,"phone":"08050112299","state":"KA","address":"234, SRS Layout","email":"sandeep@bilent.in"},"is_dvp":false,"capture_details":null,"created_at":1429872751,"expires_on":1429876351}
+Request2: https://api.kyash.in/v1/paymentpoints/560078
+Request: https://api.kyash.in/v1/paymentpoints/560078
+Response: [{"phone":"","address":"1549, E End Circle JP Nagar 3rd Phs","shop_name":"S V COMMUNICATIONS"},{"phone":"","address":"24, 4th Cross Sarakki Gate Kanakapura Main Road JP Nagar","shop_name":"B S K COMPUTER SOLUTIONS"},{"phone":"","address":"27, Jagruthi Colony 13th Main Ptnhalli Main Road JP Nagar 7th Phs","shop_name":"THE LINKS"}]
+Request2: https://api.kyash.in/v1/paymentpoints/560077
+Request: https://api.kyash.in/v1/paymentpoints/560077
+Response: [{"phone":"","address":"47, Fuji Arcad, 80Ft Double Road, Dr Shivaram Karantha Nagar, C&E Layout","shop_name":"MB ENTERPRISES"},{"phone":"","address":"5\/1, Thanisandra Main Road, Opp Maruthi Saw Mill, Vidya","shop_name":"M.A. ENTERPRISES"},{"phone":"","address":"31\/1, 2nd Phs, 5th Cross, Balaji Krupa Layout Hegde Nagar","shop_name":"GANESH ENTERPRISES"},{"phone":"","address":"49\/1, Near TNT Apt, & ICICI Bank, Thanisandra Main Road","shop_name":"KGN COMPUTERS"},{"phone":"","address":"3, 37\/3, 2nd Cross, Bharath Nagar, Thani Sandra Main Road, Sarai Palya","shop_name":"MUSKAAN ENTERPRISES"},{"phone":"","address":"758\/1, Near Masjid E Jamiya, RK Hegde Nagar","shop_name":"ASSISTIVE SERVICES"},{"phone":"","address":"Hanumanthe Gowda Circle, Kanarayanapura, Kothanur","shop_name":"ASR GLOBAL COMMUNICATIONS"},{"phone":"","address":"228A, Sarai Palya, Thannisandra Main Road","shop_name":"MOHAN MEDICALS"},{"phone":"","address":"Flr-1 Patel Bld Near Kothnur Bus Stop","shop_name":"SRI BALAJI ENTERPRISES"},{"phone":"","address":"406, 1st A Main, B Block, 2nd Stage, Rajaji Nagar","shop_name":"SRIVARI INC"},{"phone":"","address":"16, RK Hegde Nagar","shop_name":"GOOD LUCK ENTERPRISES"},{"phone":"","address":"455, Santhosh Complex, Ramakrishna Hegde Nagar, Near Dr SRK Nagar","shop_name":"SANTHOSH ENTERPRISES"},{"phone":"","address":"Hanumantha Gowda Circle, Kanarayanapura, Kothanur","shop_name":"FRIENDS MOBILES"},{"phone":"","address":"441, 1th Cross, RK Hegde Nagar","shop_name":"F M ENTERPRISSES"}]
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W32&amount=100.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Test&billing_contact.last_name=Dev&billing_contact.email=test%40kyash.com&billing_contact.address=277+JP+Nagar&billing_contact.city=Bengaluru&billing_contact.state=KA&billing_contact.pincode=560077&billing_contact.phone=8050112266&shipping_contact.first_name=Test&shipping_contact.last_name=Dev&shipping_contact.address=Test%2CTest&shipping_contact.city=Bengaluru&shipping_contact.state=KA&shipping_contact.pincode=560077&shipping_contact.phone=8050112266
+Response: {"status":"pending","shipping_contact":{"city":"Bengaluru","first_name":"Test","last_name":"Dev","country":null,"pincode":560077,"phone":"8050112266","state":"KA","address":"Test,Test","email":null},"fee":15.48,"order_id":"W32","sms_enabled":true,"livemode":false,"amount":100,"id":"T07329745","cancellation_details":null,"fee_details":[{"amount":12,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"Min \u20b912"},{"amount":1.48,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b912.0"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"Bengaluru","first_name":"Test","last_name":"Dev","country":null,"pincode":560077,"phone":"8050112266","state":"KA","address":"277 JP Nagar","email":"test@kyash.com"},"is_dvp":false,"capture_details":null,"created_at":1430118972,"expires_on":1430122572}
+Request2: https://api.kyash.in/v1/paymentpoints/560077
+Request: https://api.kyash.in/v1/paymentpoints/560077
+Response: [{"phone":"","address":"47, Fuji Arcad, 80Ft Double Road, Dr Shivaram Karantha Nagar, C&E Layout","shop_name":"MB ENTERPRISES"},{"phone":"","address":"5\/1, Thanisandra Main Road, Opp Maruthi Saw Mill, Vidya","shop_name":"M.A. ENTERPRISES"},{"phone":"","address":"31\/1, 2nd Phs, 5th Cross, Balaji Krupa Layout Hegde Nagar","shop_name":"GANESH ENTERPRISES"},{"phone":"","address":"49\/1, Near TNT Apt, & ICICI Bank, Thanisandra Main Road","shop_name":"KGN COMPUTERS"},{"phone":"","address":"3, 37\/3, 2nd Cross, Bharath Nagar, Thani Sandra Main Road, Sarai Palya","shop_name":"MUSKAAN ENTERPRISES"},{"phone":"","address":"758\/1, Near Masjid E Jamiya, RK Hegde Nagar","shop_name":"ASSISTIVE SERVICES"},{"phone":"","address":"Hanumanthe Gowda Circle, Kanarayanapura, Kothanur","shop_name":"ASR GLOBAL COMMUNICATIONS"},{"phone":"","address":"228A, Sarai Palya, Thannisandra Main Road","shop_name":"MOHAN MEDICALS"},{"phone":"","address":"Flr-1 Patel Bld Near Kothnur Bus Stop","shop_name":"SRI BALAJI ENTERPRISES"},{"phone":"","address":"406, 1st A Main, B Block, 2nd Stage, Rajaji Nagar","shop_name":"SRIVARI INC"},{"phone":"","address":"16, RK Hegde Nagar","shop_name":"GOOD LUCK ENTERPRISES"},{"phone":"","address":"455, Santhosh Complex, Ramakrishna Hegde Nagar, Near Dr SRK Nagar","shop_name":"SANTHOSH ENTERPRISES"},{"phone":"","address":"Hanumantha Gowda Circle, Kanarayanapura, Kothanur","shop_name":"FRIENDS MOBILES"},{"phone":"","address":"441, 1th Cross, RK Hegde Nagar","shop_name":"F M ENTERPRISSES"}]
+Request2: https://api.kyash.in/v1/paymentpoints/560077
+Request: https://api.kyash.in/v1/paymentpoints/560077
+Response: [{"phone":"","address":"47, Fuji Arcad, 80Ft Double Road, Dr Shivaram Karantha Nagar, C&E Layout","shop_name":"MB ENTERPRISES"},{"phone":"","address":"5\/1, Thanisandra Main Road, Opp Maruthi Saw Mill, Vidya","shop_name":"M.A. ENTERPRISES"},{"phone":"","address":"31\/1, 2nd Phs, 5th Cross, Balaji Krupa Layout Hegde Nagar","shop_name":"GANESH ENTERPRISES"},{"phone":"","address":"49\/1, Near TNT Apt, & ICICI Bank, Thanisandra Main Road","shop_name":"KGN COMPUTERS"},{"phone":"","address":"3, 37\/3, 2nd Cross, Bharath Nagar, Thani Sandra Main Road, Sarai Palya","shop_name":"MUSKAAN ENTERPRISES"},{"phone":"","address":"758\/1, Near Masjid E Jamiya, RK Hegde Nagar","shop_name":"ASSISTIVE SERVICES"},{"phone":"","address":"Hanumanthe Gowda Circle, Kanarayanapura, Kothanur","shop_name":"ASR GLOBAL COMMUNICATIONS"},{"phone":"","address":"228A, Sarai Palya, Thannisandra Main Road","shop_name":"MOHAN MEDICALS"},{"phone":"","address":"Flr-1 Patel Bld Near Kothnur Bus Stop","shop_name":"SRI BALAJI ENTERPRISES"},{"phone":"","address":"406, 1st A Main, B Block, 2nd Stage, Rajaji Nagar","shop_name":"SRIVARI INC"},{"phone":"","address":"16, RK Hegde Nagar","shop_name":"GOOD LUCK ENTERPRISES"},{"phone":"","address":"455, Santhosh Complex, Ramakrishna Hegde Nagar, Near Dr SRK Nagar","shop_name":"SANTHOSH ENTERPRISES"},{"phone":"","address":"Hanumantha Gowda Circle, Kanarayanapura, Kothanur","shop_name":"FRIENDS MOBILES"},{"phone":"","address":"441, 1th Cross, RK Hegde Nagar","shop_name":"F M ENTERPRISSES"}]
+Request2: https://api.kyash.in/v1/paymentpoints/560077
+Request: https://api.kyash.in/v1/paymentpoints/560077
+Response: [{"phone":"","address":"47, Fuji Arcad, 80Ft Double Road, Dr Shivaram Karantha Nagar, C&E Layout","shop_name":"MB ENTERPRISES"},{"phone":"","address":"5\/1, Thanisandra Main Road, Opp Maruthi Saw Mill, Vidya","shop_name":"M.A. ENTERPRISES"},{"phone":"","address":"31\/1, 2nd Phs, 5th Cross, Balaji Krupa Layout Hegde Nagar","shop_name":"GANESH ENTERPRISES"},{"phone":"","address":"49\/1, Near TNT Apt, & ICICI Bank, Thanisandra Main Road","shop_name":"KGN COMPUTERS"},{"phone":"","address":"3, 37\/3, 2nd Cross, Bharath Nagar, Thani Sandra Main Road, Sarai Palya","shop_name":"MUSKAAN ENTERPRISES"},{"phone":"","address":"758\/1, Near Masjid E Jamiya, RK Hegde Nagar","shop_name":"ASSISTIVE SERVICES"},{"phone":"","address":"Hanumanthe Gowda Circle, Kanarayanapura, Kothanur","shop_name":"ASR GLOBAL COMMUNICATIONS"},{"phone":"","address":"228A, Sarai Palya, Thannisandra Main Road","shop_name":"MOHAN MEDICALS"},{"phone":"","address":"Flr-1 Patel Bld Near Kothnur Bus Stop","shop_name":"SRI BALAJI ENTERPRISES"},{"phone":"","address":"406, 1st A Main, B Block, 2nd Stage, Rajaji Nagar","shop_name":"SRIVARI INC"},{"phone":"","address":"16, RK Hegde Nagar","shop_name":"GOOD LUCK ENTERPRISES"},{"phone":"","address":"455, Santhosh Complex, Ramakrishna Hegde Nagar, Near Dr SRK Nagar","shop_name":"SANTHOSH ENTERPRISES"},{"phone":"","address":"Hanumantha Gowda Circle, Kanarayanapura, Kothanur","shop_name":"FRIENDS MOBILES"},{"phone":"","address":"441, 1th Cross, RK Hegde Nagar","shop_name":"F M ENTERPRISSES"}]
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W33&amount=100.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Test&billing_contact.last_name=Dev&billing_contact.email=test%40kyash.com&billing_contact.address=277+J+P+Nagar&billing_contact.city=Bengaluru&billing_contact.state=KA&billing_contact.pincode=560077&billing_contact.phone=8050112266&shipping_contact.first_name=Test&shipping_contact.last_name=Dev&shipping_contact.address=Test%2CTest&shipping_contact.city=Bengaluru&shipping_contact.state=KA&shipping_contact.pincode=560077&shipping_contact.phone=8050112266
+Response: {"status":"pending","shipping_contact":{"city":"Bengaluru","first_name":"Test","last_name":"Dev","country":null,"pincode":560077,"phone":"8050112266","state":"KA","address":"Test,Test","email":null},"fee":15.48,"order_id":"W33","sms_enabled":true,"livemode":false,"amount":100,"id":"T42369540","cancellation_details":null,"fee_details":[{"amount":12,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"Min \u20b912"},{"amount":1.48,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b912.0"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"Bengaluru","first_name":"Test","last_name":"Dev","country":null,"pincode":560077,"phone":"8050112266","state":"KA","address":"277 J P Nagar","email":"test@kyash.com"},"is_dvp":false,"capture_details":null,"created_at":1430124500,"expires_on":1430128100}
+Request2: https://api.kyash.in/v1/paymentpoints/560077
+Request: https://api.kyash.in/v1/paymentpoints/560077
+Response: [{"phone":"","address":"47, Fuji Arcad, 80Ft Double Road, Dr Shivaram Karantha Nagar, C&E Layout","shop_name":"MB ENTERPRISES"},{"phone":"","address":"5\/1, Thanisandra Main Road, Opp Maruthi Saw Mill, Vidya","shop_name":"M.A. ENTERPRISES"},{"phone":"","address":"31\/1, 2nd Phs, 5th Cross, Balaji Krupa Layout Hegde Nagar","shop_name":"GANESH ENTERPRISES"},{"phone":"","address":"49\/1, Near TNT Apt, & ICICI Bank, Thanisandra Main Road","shop_name":"KGN COMPUTERS"},{"phone":"","address":"3, 37\/3, 2nd Cross, Bharath Nagar, Thani Sandra Main Road, Sarai Palya","shop_name":"MUSKAAN ENTERPRISES"},{"phone":"","address":"758\/1, Near Masjid E Jamiya, RK Hegde Nagar","shop_name":"ASSISTIVE SERVICES"},{"phone":"","address":"Hanumanthe Gowda Circle, Kanarayanapura, Kothanur","shop_name":"ASR GLOBAL COMMUNICATIONS"},{"phone":"","address":"228A, Sarai Palya, Thannisandra Main Road","shop_name":"MOHAN MEDICALS"},{"phone":"","address":"Flr-1 Patel Bld Near Kothnur Bus Stop","shop_name":"SRI BALAJI ENTERPRISES"},{"phone":"","address":"406, 1st A Main, B Block, 2nd Stage, Rajaji Nagar","shop_name":"SRIVARI INC"},{"phone":"","address":"16, RK Hegde Nagar","shop_name":"GOOD LUCK ENTERPRISES"},{"phone":"","address":"455, Santhosh Complex, Ramakrishna Hegde Nagar, Near Dr SRK Nagar","shop_name":"SANTHOSH ENTERPRISES"},{"phone":"","address":"Hanumantha Gowda Circle, Kanarayanapura, Kothanur","shop_name":"FRIENDS MOBILES"},{"phone":"","address":"441, 1th Cross, RK Hegde Nagar","shop_name":"F M ENTERPRISSES"}]
+Request2: https://api.kyash.in/v1/paymentpoints/560077
+Request: https://api.kyash.in/v1/paymentpoints/560077
+Response: [{"phone":"","address":"47, Fuji Arcad, 80Ft Double Road, Dr Shivaram Karantha Nagar, C&E Layout","shop_name":"MB ENTERPRISES"},{"phone":"","address":"5\/1, Thanisandra Main Road, Opp Maruthi Saw Mill, Vidya","shop_name":"M.A. ENTERPRISES"},{"phone":"","address":"31\/1, 2nd Phs, 5th Cross, Balaji Krupa Layout Hegde Nagar","shop_name":"GANESH ENTERPRISES"},{"phone":"","address":"49\/1, Near TNT Apt, & ICICI Bank, Thanisandra Main Road","shop_name":"KGN COMPUTERS"},{"phone":"","address":"3, 37\/3, 2nd Cross, Bharath Nagar, Thani Sandra Main Road, Sarai Palya","shop_name":"MUSKAAN ENTERPRISES"},{"phone":"","address":"758\/1, Near Masjid E Jamiya, RK Hegde Nagar","shop_name":"ASSISTIVE SERVICES"},{"phone":"","address":"Hanumanthe Gowda Circle, Kanarayanapura, Kothanur","shop_name":"ASR GLOBAL COMMUNICATIONS"},{"phone":"","address":"228A, Sarai Palya, Thannisandra Main Road","shop_name":"MOHAN MEDICALS"},{"phone":"","address":"Flr-1 Patel Bld Near Kothnur Bus Stop","shop_name":"SRI BALAJI ENTERPRISES"},{"phone":"","address":"406, 1st A Main, B Block, 2nd Stage, Rajaji Nagar","shop_name":"SRIVARI INC"},{"phone":"","address":"16, RK Hegde Nagar","shop_name":"GOOD LUCK ENTERPRISES"},{"phone":"","address":"455, Santhosh Complex, Ramakrishna Hegde Nagar, Near Dr SRK Nagar","shop_name":"SANTHOSH ENTERPRISES"},{"phone":"","address":"Hanumantha Gowda Circle, Kanarayanapura, Kothanur","shop_name":"FRIENDS MOBILES"},{"phone":"","address":"441, 1th Cross, RK Hegde Nagar","shop_name":"F M ENTERPRISSES"}]
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W34&amount=550.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=test&billing_contact.last_name=dev&billing_contact.email=test%40kyash.com&billing_contact.address=123+qwerty&billing_contact.city=ben&billing_contact.state=KA&billing_contact.pincode=560077&billing_contact.phone=8050112266&shipping_contact.first_name=test&shipping_contact.last_name=dev&shipping_contact.address=test%2Ctest&shipping_contact.city=ben&shipping_contact.state=KA&shipping_contact.pincode=560077&shipping_contact.phone=8050112266
+Response: {"status":"pending","shipping_contact":{"city":"ben","first_name":"test","last_name":"dev","country":null,"pincode":560077,"phone":"8050112266","state":"KA","address":"test,test","email":null},"fee":26.1,"order_id":"W34","sms_enabled":true,"livemode":false,"amount":550,"id":"T88298262","cancellation_details":null,"fee_details":[{"amount":21.45,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"3.9%"},{"amount":2.65,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b921.45"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"ben","first_name":"test","last_name":"dev","country":null,"pincode":560077,"phone":"8050112266","state":"KA","address":"123 qwerty","email":"test@kyash.com"},"is_dvp":false,"capture_details":null,"created_at":1430128908,"expires_on":1430132508}
+Request2: https://api.kyash.in/v1/paymentpoints/560077
+Request: https://api.kyash.in/v1/paymentpoints/560077
+Response: [{"phone":"","address":"47, Fuji Arcad, 80Ft Double Road, Dr Shivaram Karantha Nagar, C&E Layout","shop_name":"MB ENTERPRISES"},{"phone":"","address":"5\/1, Thanisandra Main Road, Opp Maruthi Saw Mill, Vidya","shop_name":"M.A. ENTERPRISES"},{"phone":"","address":"31\/1, 2nd Phs, 5th Cross, Balaji Krupa Layout Hegde Nagar","shop_name":"GANESH ENTERPRISES"},{"phone":"","address":"49\/1, Near TNT Apt, & ICICI Bank, Thanisandra Main Road","shop_name":"KGN COMPUTERS"},{"phone":"","address":"3, 37\/3, 2nd Cross, Bharath Nagar, Thani Sandra Main Road, Sarai Palya","shop_name":"MUSKAAN ENTERPRISES"},{"phone":"","address":"758\/1, Near Masjid E Jamiya, RK Hegde Nagar","shop_name":"ASSISTIVE SERVICES"},{"phone":"","address":"Hanumanthe Gowda Circle, Kanarayanapura, Kothanur","shop_name":"ASR GLOBAL COMMUNICATIONS"},{"phone":"","address":"228A, Sarai Palya, Thannisandra Main Road","shop_name":"MOHAN MEDICALS"},{"phone":"","address":"Flr-1 Patel Bld Near Kothnur Bus Stop","shop_name":"SRI BALAJI ENTERPRISES"},{"phone":"","address":"406, 1st A Main, B Block, 2nd Stage, Rajaji Nagar","shop_name":"SRIVARI INC"},{"phone":"","address":"16, RK Hegde Nagar","shop_name":"GOOD LUCK ENTERPRISES"},{"phone":"","address":"455, Santhosh Complex, Ramakrishna Hegde Nagar, Near Dr SRK Nagar","shop_name":"SANTHOSH ENTERPRISES"},{"phone":"","address":"Hanumantha Gowda Circle, Kanarayanapura, Kothanur","shop_name":"FRIENDS MOBILES"},{"phone":"","address":"441, 1th Cross, RK Hegde Nagar","shop_name":"F M ENTERPRISSES"}]
+Array
+(
+    [order_id] => W34
+    [kyash_code] => T88298262
+    [status] => paid
+    [paid_by] => 8050112266
+    [amount] => 550
+)
+
+Array
+(
+    [User-Agent] => Python-urllib/2.7 AppEngine-Google; (+http://code.google.com/appengine; appid: s~bilentapp)
+    [Accept-Encoding] => gzip,deflate
+    [Connection] => close
+    [Content-Length] => 135
+    [X-Cloud-Trace-Context] => ChIJWT7GEibYV0URmdWKD-LphRARUvqu6FaQ7pUYAA
+    [Content-Type] => application/x-www-form-urlencoded
+    [Host] => www.wordpress.adlok.com
+)
+
+Authorization:
+HTTP/1.1 401 Unauthorized - Signature not found in the header or damaged
+Array
+(
+    [order_id] => 
+    [kyash_code] => 
+    [status] => 
+    [paid_by] => 
+    [amount] => 
+)
+
+Array
+(
+    [Accept-Language] => en-US,en;q=0.8
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => */*
+    [Postman-Token] => 854c3bc0-512c-f958-4a24-f81151b35129
+    [User-Agent] => Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    [Content-Type] => text/plain;charset=UTF-8
+    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+    [Cache-Control] => no-cache
+    [Content-Length] => 132
+    [Connection] => close
+    [Host] => www.wordpress.adlok.com
+)
+
+Authorization:
+HTTP/1.1 401 Unauthorized - Signature not found in the header or damaged
+Array
+(
+    [order_id] => 
+    [kyash_code] => 
+    [status] => 
+    [paid_by] => 
+    [amount] => 
+)
+
+Array
+(
+    [Accept-Language] => en-US,en;q=0.8
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => */*
+    [Content-Type] => text/plain;charset=UTF-8
+    [User-Agent] => Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+    [Cache-Control] => no-cache
+    [Postman-Token] => ed0f0796-87ac-55fe-8c77-fcca017083ac
+    [Content-Length] => 132
+    [Connection] => close
+    [Host] => www.wordpress.adlok.com
+)
+
+Authorization:
+HTTP/1.1 401 Unauthorized - Signature not found in the header or damaged
+Array
+(
+    [order_id] => 
+    [kyash_code] => 
+    [status] => 
+    [paid_by] => 
+    [amount] => 
+)
+
+Array
+(
+    [Accept-Language] => en-US,en;q=0.8
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => */*
+    [Postman-Token] => fbde094a-7f17-e870-a316-57669eb2f487
+    [Content-Type] => application/json
+    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    [Content-Length] => 132
+    [Connection] => close
+    [Host] => www.wordpress.adlok.com
+)
+
+Authorization:
+HTTP/1.1 401 Unauthorized - Signature not found in the header or damaged
+Array
+(
+    [order_id] => 
+    [kyash_code] => 
+    [status] => 
+    [paid_by] => 
+    [amount] => 
+)
+
+Array
+(
+    [Accept-Language] => en-US,en;q=0.8
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => */*
+    [Postman-Token] => 0ed8a143-a0df-462f-2e74-c127b589ac01
+    [Content-Type] => application/json
+    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    [Content-Length] => 132
+    [Connection] => close
+    [Host] => www.wordpress.adlok.com
+)
+
+Authorization:
+HTTP/1.1 401 Unauthorized - Signature not found in the header or damaged
+Array
+(
+    [order_id] => 
+    [kyash_code] => 
+    [status] => 
+    [paid_by] => 
+    [amount] => 
+)
+
+Array
+(
+    [Accept-Language] => en-US,en;q=0.8
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => */*
+    [Postman-Token] => e9a026a2-25e2-1dbd-7fa2-2bca2fe9582a
+    [User-Agent] => Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    [Content-Type] => application/json
+    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+    [Cache-Control] => no-cache
+    [Content-Length] => 132
+    [Connection] => close
+    [Host] => www.wordpress.adlok.com
+)
+
+Authorization:
+HTTP/1.1 401 Unauthorized - Signature not found in the header or damaged
+Array
+(
+    [order_id] => 
+    [kyash_code] => 
+    [status] => 
+    [paid_by] => 
+    [amount] => 
+)
+
+Array
+(
+    [Accept-Language] => en-US,en;q=0.8
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => */*
+    [Postman-Token] => 31ae23ca-aa77-d2fa-3251-fed9e5157322
+    [User-Agent] => Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    [Content-Type] => application/json
+    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+    [Cache-Control] => no-cache
+    [Content-Length] => 132
+    [Connection] => close
+    [Host] => www.wordpress.adlok.com
+)
+
+Authorization:
+HTTP/1.1 401 Unauthorized - Signature not found in the header or damaged
+Array
+(
+    [order_id] => 
+    [kyash_code] => 
+    [status] => 
+    [paid_by] => 
+    [amount] => 
+)
+
+Array
+(
+    [Accept-Language] => en-US,en;q=0.8
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => */*
+    [Postman-Token] => badf8bea-4df5-a3c4-0baa-ac1a12619b07
+    [User-Agent] => Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    [Content-Type] => application/json
+    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+    [Cache-Control] => no-cache
+    [Content-Length] => 132
+    [Connection] => close
+    [Host] => www.wordpress.adlok.com
+)
+
+Authorization:
+HTTP/1.1 401 Unauthorized - Signature not found in the header or damaged
+Array
+(
+    [order_id] => W34
+    [kyash_code] => T88298262
+    [status] => paid
+    [paid_by] => 8050112266
+    [amount] => 550
+)
+
+Array
+(
+    [Accept-Language] => en-US,en;q=0.8
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => */*
+    [Postman-Token] => 74d01d23-372d-0b5a-8bda-b6cb33b35b34
+    [User-Agent] => Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    [Content-Type] => application/x-www-form-urlencoded
+    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+    [Cache-Control] => no-cache
+    [Content-Length] => 75
+    [Connection] => close
+    [Host] => www.wordpress.adlok.com
+)
+
+Authorization:
+HTTP/1.1 401 Unauthorized - Signature not found in the header or damaged
+Array
+(
+    [order_id] => W34
+    [kyash_code] => T88298262
+    [status] => paid
+    [paid_by] => 8050112266
+    [amount] => 550
+)
+
+Array
+(
+    [Accept-Language] => en-US,en;q=0.8
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => */*
+    [Postman-Token] => d620f6d7-154a-a5b5-b7a1-1ac44abdd293
+    [User-Agent] => Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    [Content-Type] => application/x-www-form-urlencoded
+    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+    [Cache-Control] => no-cache
+    [Content-Length] => 331
+    [Connection] => close
+    [Host] => www.wordpress.adlok.com
+)
+
+Authorization:
+HTTP/1.1 401 Unauthorized - Signature not found in the header or damaged
+Array
+(
+    [order_id] => W34
+    [kyash_code] => T88298262
+    [status] => paid
+    [paid_by] => 8050112266
+    [amount] => 550
+)
+
+Array
+(
+    [Accept-Language] => en-US,en;q=0.8
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => */*
+    [Postman-Token] => 75bec4aa-1d70-7c3b-8b73-7f97433f422c
+    [User-Agent] => Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    [Content-Type] => application/x-www-form-urlencoded
+    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+    [Cache-Control] => no-cache
+    [Content-Length] => 331
+    [Connection] => close
+    [Host] => www.wordpress.adlok.com
+)
+
+Authorization:
+HTTP/1.1 401 Unauthorized - Signature not found in the header or damaged
+Array
+(
+    [order_id] => W34
+    [kyash_code] => T88298262
+    [status] => paid
+    [paid_by] => 8050112266
+    [amount] => 550
+)
+
+Array
+(
+    [Accept-Language] => en-US,en;q=0.8
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => */*
+    [Postman-Token] => b3a6ac9f-d7be-d721-b188-b39fd929b708
+    [User-Agent] => Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    [Content-Type] => application/x-www-form-urlencoded
+    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+    [Cache-Control] => no-cache
+    [Content-Length] => 350
+    [Connection] => close
+    [Host] => www.wordpress.adlok.com
+)
+
+Authorization:
+HTTP/1.1 401 Unauthorized - Signature not found in the header or damaged
+Request2: https://api.kyash.in/v1/paymentpoints/560077
+Request: https://api.kyash.in/v1/paymentpoints/560077
+Response: [{"phone":"","address":"47, Fuji Arcad, 80Ft Double Road, Dr Shivaram Karantha Nagar, C&E Layout","shop_name":"MB ENTERPRISES"},{"phone":"","address":"5\/1, Thanisandra Main Road, Opp Maruthi Saw Mill, Vidya","shop_name":"M.A. ENTERPRISES"},{"phone":"","address":"31\/1, 2nd Phs, 5th Cross, Balaji Krupa Layout Hegde Nagar","shop_name":"GANESH ENTERPRISES"},{"phone":"","address":"49\/1, Near TNT Apt, & ICICI Bank, Thanisandra Main Road","shop_name":"KGN COMPUTERS"},{"phone":"","address":"3, 37\/3, 2nd Cross, Bharath Nagar, Thani Sandra Main Road, Sarai Palya","shop_name":"MUSKAAN ENTERPRISES"},{"phone":"","address":"758\/1, Near Masjid E Jamiya, RK Hegde Nagar","shop_name":"ASSISTIVE SERVICES"},{"phone":"","address":"Hanumanthe Gowda Circle, Kanarayanapura, Kothanur","shop_name":"ASR GLOBAL COMMUNICATIONS"},{"phone":"","address":"228A, Sarai Palya, Thannisandra Main Road","shop_name":"MOHAN MEDICALS"},{"phone":"","address":"Flr-1 Patel Bld Near Kothnur Bus Stop","shop_name":"SRI BALAJI ENTERPRISES"},{"phone":"","address":"406, 1st A Main, B Block, 2nd Stage, Rajaji Nagar","shop_name":"SRIVARI INC"},{"phone":"","address":"16, RK Hegde Nagar","shop_name":"GOOD LUCK ENTERPRISES"},{"phone":"","address":"455, Santhosh Complex, Ramakrishna Hegde Nagar, Near Dr SRK Nagar","shop_name":"SANTHOSH ENTERPRISES"},{"phone":"","address":"Hanumantha Gowda Circle, Kanarayanapura, Kothanur","shop_name":"FRIENDS MOBILES"},{"phone":"","address":"441, 1th Cross, RK Hegde Nagar","shop_name":"F M ENTERPRISSES"}]
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W35&amount=250.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=test&billing_contact.last_name=dev&billing_contact.email=test%40kyash.com&billing_contact.address=277+jp+nagar&billing_contact.city=bengaluru&billing_contact.state=KA&billing_contact.pincode=560077&billing_contact.phone=8050112266&shipping_contact.first_name=test&shipping_contact.last_name=dev&shipping_contact.address=test%2Ctest&shipping_contact.city=bengaluru&shipping_contact.state=KA&shipping_contact.pincode=560077&shipping_contact.phone=8050112266
+Response: {"status":"pending","shipping_contact":{"city":"bengaluru","first_name":"test","last_name":"dev","country":null,"pincode":560077,"phone":"8050112266","state":"KA","address":"test,test","email":null},"fee":15.48,"order_id":"W35","sms_enabled":true,"livemode":false,"amount":250,"id":"T18297147","cancellation_details":null,"fee_details":[{"amount":12,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"Min \u20b912"},{"amount":1.48,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b912.0"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"bengaluru","first_name":"test","last_name":"dev","country":null,"pincode":560077,"phone":"8050112266","state":"KA","address":"277 jp nagar","email":"test@kyash.com"},"is_dvp":false,"capture_details":null,"created_at":1430131435,"expires_on":1430135035}
+Request2: https://api.kyash.in/v1/paymentpoints/560077
+Request: https://api.kyash.in/v1/paymentpoints/560077
+Response: [{"phone":"","address":"47, Fuji Arcad, 80Ft Double Road, Dr Shivaram Karantha Nagar, C&E Layout","shop_name":"MB ENTERPRISES"},{"phone":"","address":"5\/1, Thanisandra Main Road, Opp Maruthi Saw Mill, Vidya","shop_name":"M.A. ENTERPRISES"},{"phone":"","address":"31\/1, 2nd Phs, 5th Cross, Balaji Krupa Layout Hegde Nagar","shop_name":"GANESH ENTERPRISES"},{"phone":"","address":"49\/1, Near TNT Apt, & ICICI Bank, Thanisandra Main Road","shop_name":"KGN COMPUTERS"},{"phone":"","address":"3, 37\/3, 2nd Cross, Bharath Nagar, Thani Sandra Main Road, Sarai Palya","shop_name":"MUSKAAN ENTERPRISES"},{"phone":"","address":"758\/1, Near Masjid E Jamiya, RK Hegde Nagar","shop_name":"ASSISTIVE SERVICES"},{"phone":"","address":"Hanumanthe Gowda Circle, Kanarayanapura, Kothanur","shop_name":"ASR GLOBAL COMMUNICATIONS"},{"phone":"","address":"228A, Sarai Palya, Thannisandra Main Road","shop_name":"MOHAN MEDICALS"},{"phone":"","address":"Flr-1 Patel Bld Near Kothnur Bus Stop","shop_name":"SRI BALAJI ENTERPRISES"},{"phone":"","address":"406, 1st A Main, B Block, 2nd Stage, Rajaji Nagar","shop_name":"SRIVARI INC"},{"phone":"","address":"16, RK Hegde Nagar","shop_name":"GOOD LUCK ENTERPRISES"},{"phone":"","address":"455, Santhosh Complex, Ramakrishna Hegde Nagar, Near Dr SRK Nagar","shop_name":"SANTHOSH ENTERPRISES"},{"phone":"","address":"Hanumantha Gowda Circle, Kanarayanapura, Kothanur","shop_name":"FRIENDS MOBILES"},{"phone":"","address":"441, 1th Cross, RK Hegde Nagar","shop_name":"F M ENTERPRISSES"}]
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W36&amount=550.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=test&billing_contact.last_name=dev&billing_contact.email=test%40kyash.com&billing_contact.address=277+jp+nagar&billing_contact.city=bengaluru&billing_contact.state=KA&billing_contact.pincode=560077&billing_contact.phone=8050112266&shipping_contact.first_name=test&shipping_contact.last_name=dev&shipping_contact.address=test%2Ctest&shipping_contact.city=bengaluru&shipping_contact.state=KA&shipping_contact.pincode=560077&shipping_contact.phone=8050112266
+Response: {"status":"pending","shipping_contact":{"city":"bengaluru","first_name":"test","last_name":"dev","country":null,"pincode":560077,"phone":"8050112266","state":"KA","address":"test,test","email":null},"fee":26.1,"order_id":"W36","sms_enabled":true,"livemode":false,"amount":550,"id":"T07987916","cancellation_details":null,"fee_details":[{"amount":21.45,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"3.9%"},{"amount":2.65,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b921.45"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"bengaluru","first_name":"test","last_name":"dev","country":null,"pincode":560077,"phone":"8050112266","state":"KA","address":"277 jp nagar","email":"test@kyash.com"},"is_dvp":false,"capture_details":null,"created_at":1430132930,"expires_on":1430136530}
+Request2: https://api.kyash.in/v1/paymentpoints/560077
+Request: https://api.kyash.in/v1/paymentpoints/560077
+Response: [{"phone":"","address":"47, Fuji Arcad, 80Ft Double Road, Dr Shivaram Karantha Nagar, C&E Layout","shop_name":"MB ENTERPRISES"},{"phone":"","address":"5\/1, Thanisandra Main Road, Opp Maruthi Saw Mill, Vidya","shop_name":"M.A. ENTERPRISES"},{"phone":"","address":"31\/1, 2nd Phs, 5th Cross, Balaji Krupa Layout Hegde Nagar","shop_name":"GANESH ENTERPRISES"},{"phone":"","address":"49\/1, Near TNT Apt, & ICICI Bank, Thanisandra Main Road","shop_name":"KGN COMPUTERS"},{"phone":"","address":"3, 37\/3, 2nd Cross, Bharath Nagar, Thani Sandra Main Road, Sarai Palya","shop_name":"MUSKAAN ENTERPRISES"},{"phone":"","address":"758\/1, Near Masjid E Jamiya, RK Hegde Nagar","shop_name":"ASSISTIVE SERVICES"},{"phone":"","address":"Hanumanthe Gowda Circle, Kanarayanapura, Kothanur","shop_name":"ASR GLOBAL COMMUNICATIONS"},{"phone":"","address":"228A, Sarai Palya, Thannisandra Main Road","shop_name":"MOHAN MEDICALS"},{"phone":"","address":"Flr-1 Patel Bld Near Kothnur Bus Stop","shop_name":"SRI BALAJI ENTERPRISES"},{"phone":"","address":"406, 1st A Main, B Block, 2nd Stage, Rajaji Nagar","shop_name":"SRIVARI INC"},{"phone":"","address":"16, RK Hegde Nagar","shop_name":"GOOD LUCK ENTERPRISES"},{"phone":"","address":"455, Santhosh Complex, Ramakrishna Hegde Nagar, Near Dr SRK Nagar","shop_name":"SANTHOSH ENTERPRISES"},{"phone":"","address":"Hanumantha Gowda Circle, Kanarayanapura, Kothanur","shop_name":"FRIENDS MOBILES"},{"phone":"","address":"441, 1th Cross, RK Hegde Nagar","shop_name":"F M ENTERPRISSES"}]
+Array
+(
+    [order_id] => W36
+    [kyash_code] => T07987916
+    [status] => paid
+    [paid_by] => 8050112266
+    [amount] => 550
+)
+
+Array
+(
+    [User-Agent] => Python-urllib/2.7 AppEngine-Google; (+http://code.google.com/appengine; appid: s~bilentapp)
+    [Accept-Encoding] => gzip,deflate
+    [Connection] => close
+    [Content-Length] => 135
+    [X-Cloud-Trace-Context] => ChIJDDBCMGVtZykRzRQqJcEXe4ARM4JF02sX1P4YAA
+    [Content-Type] => application/x-www-form-urlencoded
+    [Host] => www.wordpress.adlok.com
+    [Authorization] => HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOjFIWEtmZG5iYXZIUTQ3bWg5b0hOQWFyM0ZRcloyRVo5bUZGdVozRkNoVzQ9
+)
+
+Authorization:HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOjFIWEtmZG5iYXZIUTQ3bWg5b0hOQWFyM0ZRcloyRVo5bUZGdVozRkNoVzQ9
+Normalized request string:POST&http%3A%2F%2Fwww.wordpress.adlok.com%2F%3Faction%3Dkyash-handler&amount=550&kyash_code=T07987916&order_id=W36&paid_by=8050112266&status=paid
+Prepared signature: HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOjZCbmxqc2U2b2ZpaU1EUmNvaDhJaFU5SUVrQTQ2UkJWaks5azNNR2U5aVE9
+Array
+(
+    [order_id] => W35
+    [kyash_code] => T18297147
+    [status] => paid
+    [paid_by] => 8050112266
+    [amount] => 250
+)
+
+Array
+(
+    [User-Agent] => Python-urllib/2.7 AppEngine-Google; (+http://code.google.com/appengine; appid: s~bilentapp)
+    [Accept-Encoding] => gzip,deflate
+    [Connection] => close
+    [Content-Length] => 135
+    [X-Cloud-Trace-Context] => ChIJZAxgmfDwhcQR0y5CeOQk5yERrezp6BFSqccYAA
+    [Content-Type] => application/x-www-form-urlencoded
+    [Host] => www.wordpress.adlok.com
+    [Authorization] => HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOlBjTXZmMkJUZEE2a0hoS3pXcHZqMm94ZHJvbzdtQkxqblV0VWREeUpxUVU9
+)
+
+Authorization:HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOlBjTXZmMkJUZEE2a0hoS3pXcHZqMm94ZHJvbzdtQkxqblV0VWREeUpxUVU9
+Normalized request string:POST&http%3A%2F%2Fwww.wordpress.adlok.com%2F%3Faction%3Dkyash-handler&amount=250&kyash_code=T18297147&order_id=W35&paid_by=8050112266&status=paid
+Prepared signature: HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOkx0K3VrcWFxQ3VvNEk5dzlTTEc2ajh4M2hyMFNzRmJwOXBvYUhFRFluaHc9
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W37&amount=250.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Newtest&billing_contact.last_name=dev&billing_contact.email=test%40kyash.com&billing_contact.address=123+wqerty&billing_contact.city=bengaluru&billing_contact.state=KA&billing_contact.pincode=560078&billing_contact.phone=8050112266&shipping_contact.first_name=Newtest&shipping_contact.last_name=dev&shipping_contact.address=Newtest%2CNewtest&shipping_contact.city=bengaluru&shipping_contact.state=KA&shipping_contact.pincode=560078&shipping_contact.phone=8050112266
+Response: {"status":"pending","shipping_contact":{"city":"bengaluru","first_name":"Newtest","last_name":"dev","country":null,"pincode":560078,"phone":"8050112266","state":"KA","address":"Newtest,Newtest","email":null},"fee":15.48,"order_id":"W37","sms_enabled":true,"livemode":false,"amount":250,"id":"T09572321","cancellation_details":null,"fee_details":[{"amount":12,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"Min \u20b912"},{"amount":1.48,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b912.0"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"bengaluru","first_name":"Newtest","last_name":"dev","country":null,"pincode":560078,"phone":"8050112266","state":"KA","address":"123 wqerty","email":"test@kyash.com"},"is_dvp":false,"capture_details":null,"created_at":1430143968,"expires_on":1430147568}
+Request2: https://api.kyash.in/v1/paymentpoints/560078
+Request: https://api.kyash.in/v1/paymentpoints/560078
+Response: [{"phone":"","address":"27, Jagruthi Colony 13th Main Ptnhalli Main Road JP Nagar 7th Phs","shop_name":"THE LINKS"},{"phone":"","address":"1549, E End Circle JP Nagar 3rd Phs","shop_name":"S V COMMUNICATIONS"},{"phone":"","address":"24, 4th Cross Sarakki Gate Kanakapura Main Road JP Nagar","shop_name":"B S K COMPUTER SOLUTIONS"}]
+Array
+(
+    [order_id] => W37
+    [kyash_code] => T09572321
+    [status] => paid
+    [paid_by] => 8050112266
+    [amount] => 250
+)
+
+Array
+(
+    [User-Agent] => Python-urllib/2.7 AppEngine-Google; (+http://code.google.com/appengine; appid: s~bilentapp)
+    [Accept-Encoding] => gzip,deflate
+    [Connection] => close
+    [Content-Length] => 135
+    [X-Cloud-Trace-Context] => ChIJUi2xmQTuvekRq8YdcvOQxwARdeXjUWbuu7cYAA
+    [Content-Type] => application/x-www-form-urlencoded
+    [Host] => www.wordpress.adlok.com
+    [Authorization] => HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOjJ0NmlzRDJZNjFjRDVSWW9lQXMwWDloZS90ZUdjajNyTEdmaFFhS2RMTUk9
+)
+
+Authorization:HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOjJ0NmlzRDJZNjFjRDVSWW9lQXMwWDloZS90ZUdjajNyTEdmaFFhS2RMTUk9
+Normalized request string:POST&http%3A%2F%2Fwww.wordpress.adlok.com%2F%3Faction%3Dkyash-handler&amount=250&kyash_code=T09572321&order_id=W37&paid_by=8050112266&status=paid
+Prepared signature: HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOnpCV04xSHg5V3FTTXZRRThFcXJmRVhMeGtRRE5taDA0VkRCVmJBMUVJbUk9
+HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOjJ0NmlzRDJZNjFjRDVSWW9lQXMwWDloZS90ZUdjajNyTEdmaFFhS2RMTUk9\n0
+Request2: https://api.kyash.in/v1/paymentpoints/560078
+Request: https://api.kyash.in/v1/paymentpoints/560078
+Response: [{"phone":"","address":"27, Jagruthi Colony 13th Main Ptnhalli Main Road JP Nagar 7th Phs","shop_name":"THE LINKS"},{"phone":"","address":"1549, E End Circle JP Nagar 3rd Phs","shop_name":"S V COMMUNICATIONS"},{"phone":"","address":"24, 4th Cross Sarakki Gate Kanakapura Main Road JP Nagar","shop_name":"B S K COMPUTER SOLUTIONS"}]
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W38&amount=100.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Expiry&billing_contact.last_name=K&billing_contact.email=sandeep%40bilent.in&billing_contact.address=234%2C+SRS+Layout&billing_contact.city=Bangalore&billing_contact.state=KA&billing_contact.pincode=560078&billing_contact.phone=08050112299&shipping_contact.first_name=Expiry&shipping_contact.last_name=K&shipping_contact.address=Expiry%2CExpiry&shipping_contact.city=Bangalore&shipping_contact.state=KA&shipping_contact.pincode=560078&shipping_contact.phone=08050112299
+Response: {"status":"pending","shipping_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":560078,"phone":"08050112299","state":"KA","address":"Expiry,Expiry","email":null},"fee":15.48,"order_id":"W38","sms_enabled":true,"livemode":false,"amount":100,"id":"T80804303","cancellation_details":null,"fee_details":[{"amount":12,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"Min \u20b912"},{"amount":1.48,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b912.0"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":560078,"phone":"08050112299","state":"KA","address":"234, SRS Layout","email":"sandeep@bilent.in"},"is_dvp":false,"capture_details":null,"created_at":1430144348,"expires_on":1430147948}
+Request2: https://api.kyash.in/v1/paymentpoints/560078
+Request: https://api.kyash.in/v1/paymentpoints/560078
+Response: [{"phone":"","address":"27, Jagruthi Colony 13th Main Ptnhalli Main Road JP Nagar 7th Phs","shop_name":"THE LINKS"},{"phone":"","address":"1549, E End Circle JP Nagar 3rd Phs","shop_name":"S V COMMUNICATIONS"},{"phone":"","address":"24, 4th Cross Sarakki Gate Kanakapura Main Road JP Nagar","shop_name":"B S K COMPUTER SOLUTIONS"}]
+Array
+(
+    [order_id] => W38
+    [kyash_code] => T80804303
+    [status] => paid
+    [paid_by] => 8050112266
+    [amount] => 100
+)
+
+Array
+(
+    [User-Agent] => Python-urllib/2.7 AppEngine-Google; (+http://code.google.com/appengine; appid: s~bilentapp)
+    [Accept-Encoding] => gzip,deflate
+    [Connection] => close
+    [Content-Length] => 135
+    [X-Cloud-Trace-Context] => ChIJ4SNhHiX65dcRv9ncFX3pGdgRHYVG-wKqP9sYAA
+    [Content-Type] => application/x-www-form-urlencoded
+    [Host] => www.wordpress.adlok.com
+    [Authorization] => HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOkpVck5iRFRyRlIwc3ZXdmlRdWVScXlNZmZZRjArcmZGN0U4UUgxRWpuOG89
+)
+
+Authorization:HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOkpVck5iRFRyRlIwc3ZXdmlRdWVScXlNZmZZRjArcmZGN0U4UUgxRWpuOG89
+Normalized request string:POST&http%3A%2F%2Fwww.wordpress.adlok.com%2F%3Faction%3Dkyash-handler&amount=100&kyash_code=T80804303&order_id=W38&paid_by=8050112266&status=paid
+Prepared signature: HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOldRbndmSkdOcGttT1NPV1ZrK1diOWNHN3A2Zm1UOFMrNzJncHZvbzNjc1U9
+HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOkpVck5iRFRyRlIwc3ZXdmlRdWVScXlNZmZZRjArcmZGN0U4UUgxRWpuOG89\nHMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOldRbndmSkdOcGttT1NPV1ZrK1diOWNHN3A2Zm1UOFMrNzJncHZvbzNjc1U9
+HTTP/1.1 401 Unauthorized - Signature doest not match
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W39&amount=550.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Expiry&billing_contact.last_name=K&billing_contact.email=sandeep%40bilent.in&billing_contact.address=234%2C+SRS+Layout&billing_contact.city=Bangalore&billing_contact.state=KA&billing_contact.pincode=560078&billing_contact.phone=08050112299&shipping_contact.first_name=Expiry&shipping_contact.last_name=K&shipping_contact.address=Expiry%2CExpiry&shipping_contact.city=Bangalore&shipping_contact.state=KA&shipping_contact.pincode=560078&shipping_contact.phone=08050112299
+Response: {"status":"pending","shipping_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":560078,"phone":"08050112299","state":"KA","address":"Expiry,Expiry","email":null},"fee":26.1,"order_id":"W39","sms_enabled":true,"livemode":false,"amount":550,"id":"T53473027","cancellation_details":null,"fee_details":[{"amount":21.45,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"3.9%"},{"amount":2.65,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b921.45"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":560078,"phone":"08050112299","state":"KA","address":"234, SRS Layout","email":"sandeep@bilent.in"},"is_dvp":false,"capture_details":null,"created_at":1430144772,"expires_on":1430148372}
+Request2: https://api.kyash.in/v1/paymentpoints/560078
+Request: https://api.kyash.in/v1/paymentpoints/560078
+Response: [{"phone":"","address":"27, Jagruthi Colony 13th Main Ptnhalli Main Road JP Nagar 7th Phs","shop_name":"THE LINKS"},{"phone":"","address":"1549, E End Circle JP Nagar 3rd Phs","shop_name":"S V COMMUNICATIONS"},{"phone":"","address":"24, 4th Cross Sarakki Gate Kanakapura Main Road JP Nagar","shop_name":"B S K COMPUTER SOLUTIONS"}]
+Array
+(
+    [order_id] => W39
+    [kyash_code] => T53473027
+    [status] => paid
+    [paid_by] => 8050112266
+    [amount] => 550
+)
+
+Array
+(
+    [User-Agent] => Python-urllib/2.7 AppEngine-Google; (+http://code.google.com/appengine; appid: s~bilentapp)
+    [Accept-Encoding] => gzip,deflate
+    [Connection] => close
+    [Content-Length] => 135
+    [X-Cloud-Trace-Context] => ChIJRQ-_UGsbt2wR237oeBsnUywRo8PFksXU-ngYAA
+    [Content-Type] => application/x-www-form-urlencoded
+    [Host] => www.wordpress.adlok.com
+    [Authorization] => HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOktFa2ZNNThSRWxlWndyRUVXelpKamtPWDQ3bjdSb2xMd2daZEhVb1RnNWM9
+)
+
+Authorization:HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOktFa2ZNNThSRWxlWndyRUVXelpKamtPWDQ3bjdSb2xMd2daZEhVb1RnNWM9
+Normalized request string:POST&http%3A%2F%2Fwww.wordpress.adlok.com%2F%3Faction%3Dkyash-handler&amount=550&kyash_code=T53473027&order_id=W39&paid_by=8050112266&status=paid&timestamp=&nonce=
+Prepared signature: HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOjA4RTdkaENDNkJZSDdwaVNEWFBIOFU0dndVaEN2QXBucTlYTXlkeU94aU09
+HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOktFa2ZNNThSRWxlWndyRUVXelpKamtPWDQ3bjdSb2xMd2daZEhVb1RnNWM9\nHMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOjA4RTdkaENDNkJZSDdwaVNEWFBIOFU0dndVaEN2QXBucTlYTXlkeU94aU09
+HTTP/1.1 401 Unauthorized - Signature doest not match
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W40&amount=550.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Expiry&billing_contact.last_name=K&billing_contact.email=sandeep%40bilent.in&billing_contact.address=234%2C+SRS+Layout&billing_contact.city=Bangalore&billing_contact.state=KA&billing_contact.pincode=560078&billing_contact.phone=08050112299&shipping_contact.first_name=Expiry&shipping_contact.last_name=K&shipping_contact.address=Expiry%2CExpiry&shipping_contact.city=Bangalore&shipping_contact.state=KA&shipping_contact.pincode=560078&shipping_contact.phone=08050112299
+Response: {"status":"pending","shipping_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":560078,"phone":"08050112299","state":"KA","address":"Expiry,Expiry","email":null},"fee":26.1,"order_id":"W40","sms_enabled":true,"livemode":false,"amount":550,"id":"T96908076","cancellation_details":null,"fee_details":[{"amount":21.45,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"3.9%"},{"amount":2.65,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b921.45"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":560078,"phone":"08050112299","state":"KA","address":"234, SRS Layout","email":"sandeep@bilent.in"},"is_dvp":false,"capture_details":null,"created_at":1430145449,"expires_on":1430149049}
+Request2: https://api.kyash.in/v1/paymentpoints/560078
+Request: https://api.kyash.in/v1/paymentpoints/560078
+Response: [{"phone":"","address":"27, Jagruthi Colony 13th Main Ptnhalli Main Road JP Nagar 7th Phs","shop_name":"THE LINKS"},{"phone":"","address":"1549, E End Circle JP Nagar 3rd Phs","shop_name":"S V COMMUNICATIONS"},{"phone":"","address":"24, 4th Cross Sarakki Gate Kanakapura Main Road JP Nagar","shop_name":"B S K COMPUTER SOLUTIONS"}]
+Array
+(
+    [order_id] => W40
+    [kyash_code] => T96908076
+    [status] => paid
+    [paid_by] => 8050112266
+    [amount] => 550
+)
+
+Array
+(
+    [action] => kyash-handler
+    [status] => paid
+    [nonce] => e0c41750d09cc0f6037e35792af1e803
+    [amount] => 550
+    [order_id] => W40
+    [timestamp] => 1430145484
+    [paid_by] => 8050112266
+    [kyash_code] => T96908076
+)
+
+Array
+(
+    [User-Agent] => Python-urllib/2.7 AppEngine-Google; (+http://code.google.com/appengine; appid: s~bilentapp)
+    [Accept-Encoding] => gzip,deflate
+    [Connection] => close
+    [Content-Length] => 135
+    [X-Cloud-Trace-Context] => ChIJVvNYjGBBqX8ReohaRb7BVuQRsEG8FWuUJfIYAA
+    [Content-Type] => application/x-www-form-urlencoded
+    [Host] => www.wordpress.adlok.com
+    [Authorization] => HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOkYrTGVMMXRLSWpZb3oySTdBRDQxUGYzQnVRQXF3a1dzYzV4SFFEcFFraEU9
+)
+
+Authorization:HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOkYrTGVMMXRLSWpZb3oySTdBRDQxUGYzQnVRQXF3a1dzYzV4SFFEcFFraEU9
+Normalized request string:POST&http%3A%2F%2Fwww.wordpress.adlok.com%2F%3Faction%3Dkyash-handler&amount=550&kyash_code=T96908076&order_id=W40&paid_by=8050112266&status=paid&timestamp=&nonce=
+Prepared signature: HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOjduWWE0MG1QVTQ5ZWc3MnByRkhxYmg2U0ZJR1g4eXZTT0Rwa00wbW1GS2c9
+HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOkYrTGVMMXRLSWpZb3oySTdBRDQxUGYzQnVRQXF3a1dzYzV4SFFEcFFraEU9\nHMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOjduWWE0MG1QVTQ5ZWc3MnByRkhxYmg2U0ZJR1g4eXZTT0Rwa00wbW1GS2c9
+HTTP/1.1 401 Unauthorized - Signature doest not match
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W41&amount=250.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Expiry&billing_contact.last_name=K&billing_contact.email=sandeep%40bilent.in&billing_contact.address=234%2C+SRS+Layout&billing_contact.city=Bangalore&billing_contact.state=KA&billing_contact.pincode=560078&billing_contact.phone=08050112299&shipping_contact.first_name=Expiry&shipping_contact.last_name=K&shipping_contact.address=Expiry%2CExpiry&shipping_contact.city=Bangalore&shipping_contact.state=KA&shipping_contact.pincode=560078&shipping_contact.phone=08050112299
+Response: {"status":"pending","shipping_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":560078,"phone":"08050112299","state":"KA","address":"Expiry,Expiry","email":null},"fee":15.48,"order_id":"W41","sms_enabled":true,"livemode":false,"amount":250,"id":"T84017855","cancellation_details":null,"fee_details":[{"amount":12,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"Min \u20b912"},{"amount":1.48,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b912.0"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":560078,"phone":"08050112299","state":"KA","address":"234, SRS Layout","email":"sandeep@bilent.in"},"is_dvp":false,"capture_details":null,"created_at":1430145679,"expires_on":1430149279}
+Request2: https://api.kyash.in/v1/paymentpoints/560078
+Request: https://api.kyash.in/v1/paymentpoints/560078
+Response: [{"phone":"","address":"27, Jagruthi Colony 13th Main Ptnhalli Main Road JP Nagar 7th Phs","shop_name":"THE LINKS"},{"phone":"","address":"1549, E End Circle JP Nagar 3rd Phs","shop_name":"S V COMMUNICATIONS"},{"phone":"","address":"24, 4th Cross Sarakki Gate Kanakapura Main Road JP Nagar","shop_name":"B S K COMPUTER SOLUTIONS"}]
+Array
+(
+    [order_id] => W41
+    [kyash_code] => T84017855
+    [status] => paid
+    [paid_by] => 8050112266
+    [amount] => 250
+)
+
+Array
+(
+    [action] => kyash-handler
+    [status] => paid
+    [nonce] => 87dda973a2e090e204eb6a815758d8fb
+    [amount] => 250
+    [order_id] => W41
+    [timestamp] => 1430145747
+    [paid_by] => 8050112266
+    [kyash_code] => T84017855
+)
+
+Array
+(
+    [User-Agent] => Python-urllib/2.7 AppEngine-Google; (+http://code.google.com/appengine; appid: s~bilentapp)
+    [Accept-Encoding] => gzip,deflate
+    [Connection] => close
+    [Content-Length] => 135
+    [X-Cloud-Trace-Context] => ChIJ0dkPtinDePsRcC7ebbVh1Y4Rax9GD4tUxKsYAA
+    [Content-Type] => application/x-www-form-urlencoded
+    [Host] => www.wordpress.adlok.com
+    [Authorization] => HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOk5HYjRMb1Y1cENwaFpCT1pwWWhRZnJZVE9SMFVBdmM5dVBDa015YW5qL2M9
+)
+
+Authorization:HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOk5HYjRMb1Y1cENwaFpCT1pwWWhRZnJZVE9SMFVBdmM5dVBDa015YW5qL2M9
+Normalized request string:POST&http%3A%2F%2Fwww.wordpress.adlok.com%2F%3Faction%3Dkyash-handler&amount=250&kyash_code=T84017855&order_id=W41&paid_by=8050112266&status=paid&timestamp=1430145747&nonce=87dda973a2e090e204eb6a815758d8fb
+Prepared signature: HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOnAvOWlaaFBhdHI2dUVKazdVUTJmc2Yrd2txVHRYRHNCMjRGQm9EcFJPMnc9
+HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOk5HYjRMb1Y1cENwaFpCT1pwWWhRZnJZVE9SMFVBdmM5dVBDa015YW5qL2M9\nHMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOnAvOWlaaFBhdHI2dUVKazdVUTJmc2Yrd2txVHRYRHNCMjRGQm9EcFJPMnc9
+HTTP/1.1 401 Unauthorized - Signature doest not match
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W42&amount=550.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Expiry&billing_contact.last_name=K&billing_contact.email=sandeep%40bilent.in&billing_contact.address=234%2C+SRS+Layout&billing_contact.city=Bangalore&billing_contact.state=KA&billing_contact.pincode=560078&billing_contact.phone=08050112299&shipping_contact.first_name=Expiry&shipping_contact.last_name=K&shipping_contact.address=Expiry%2CExpiry&shipping_contact.city=Bangalore&shipping_contact.state=KA&shipping_contact.pincode=560078&shipping_contact.phone=08050112299
+Response: {"status":"pending","shipping_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":560078,"phone":"08050112299","state":"KA","address":"Expiry,Expiry","email":null},"fee":26.1,"order_id":"W42","sms_enabled":true,"livemode":false,"amount":550,"id":"T58667015","cancellation_details":null,"fee_details":[{"amount":21.45,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"3.9%"},{"amount":2.65,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b921.45"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":560078,"phone":"08050112299","state":"KA","address":"234, SRS Layout","email":"sandeep@bilent.in"},"is_dvp":false,"capture_details":null,"created_at":1430146262,"expires_on":1430149862}
+Request2: https://api.kyash.in/v1/paymentpoints/560078
+Request: https://api.kyash.in/v1/paymentpoints/560078
+Response: [{"phone":"","address":"27, Jagruthi Colony 13th Main Ptnhalli Main Road JP Nagar 7th Phs","shop_name":"THE LINKS"},{"phone":"","address":"1549, E End Circle JP Nagar 3rd Phs","shop_name":"S V COMMUNICATIONS"},{"phone":"","address":"24, 4th Cross Sarakki Gate Kanakapura Main Road JP Nagar","shop_name":"B S K COMPUTER SOLUTIONS"}]
+Array
+(
+    [order_id] => W42
+    [kyash_code] => T58667015
+    [status] => paid
+    [paid_by] => 8050112266
+    [amount] => 550
+)
+
+Array
+(
+    [action] => kyash-handler
+    [status] => paid
+    [nonce] => 1c63d51ab85a826a82354969bc3d8eb7
+    [amount] => 550
+    [order_id] => W42
+    [timestamp] => 1430146290
+    [paid_by] => 8050112266
+    [kyash_code] => T58667015
+)
+
+Array
+(
+    [User-Agent] => Python-urllib/2.7 AppEngine-Google; (+http://code.google.com/appengine; appid: s~bilentapp)
+    [Accept-Encoding] => gzip,deflate
+    [Connection] => close
+    [Content-Length] => 135
+    [X-Cloud-Trace-Context] => ChIJbdmuSvibM8oRJuqKd3noMgQR-fGSrCzZFo0YAA
+    [Content-Type] => application/x-www-form-urlencoded
+    [Host] => www.wordpress.adlok.com
+    [Authorization] => HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOlZWMmQxczMwc3laZ3EvWjYvQXpEcUh6NFZ3RGNBcEIyMTFzYUFzUzNoenM9
+)
+
+Authorization:HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOlZWMmQxczMwc3laZ3EvWjYvQXpEcUh6NFZ3RGNBcEIyMTFzYUFzUzNoenM9
+Normalized request string:POST&http%3A%2F%2Fwww.wordpress.adlok.com%2F%3Faction%3Dkyash-handler&amount%3D550%26kyash_code%3DT58667015%26nonce%3D1c63d51ab85a826a82354969bc3d8eb7%26order_id%3DW42%26paid_by%3D8050112266%26status%3Dpaid%26timestamp%3D1430146290
+Prepared signature: HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOlZWMmQxczMwc3laZ3EvWjYvQXpEcUh6NFZ3RGNBcEIyMTFzYUFzUzNoenM9
+HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOlZWMmQxczMwc3laZ3EvWjYvQXpEcUh6NFZ3RGNBcEIyMTFzYUFzUzNoenM9\nHMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOlZWMmQxczMwc3laZ3EvWjYvQXpEcUh6NFZ3RGNBcEIyMTFzYUFzUzNoenM9
+Request2: https://api.kyash.in/v1/paymentpoints/560077
+Request: https://api.kyash.in/v1/paymentpoints/560077
+Response: [{"phone":"","address":"47, Fuji Arcad, 80Ft Double Road, Dr Shivaram Karantha Nagar, C&E Layout","shop_name":"MB ENTERPRISES"},{"phone":"","address":"5\/1, Thanisandra Main Road, Opp Maruthi Saw Mill, Vidya","shop_name":"M.A. ENTERPRISES"},{"phone":"","address":"31\/1, 2nd Phs, 5th Cross, Balaji Krupa Layout Hegde Nagar","shop_name":"GANESH ENTERPRISES"},{"phone":"","address":"49\/1, Near TNT Apt, & ICICI Bank, Thanisandra Main Road","shop_name":"KGN COMPUTERS"},{"phone":"","address":"3, 37\/3, 2nd Cross, Bharath Nagar, Thani Sandra Main Road, Sarai Palya","shop_name":"MUSKAAN ENTERPRISES"},{"phone":"","address":"758\/1, Near Masjid E Jamiya, RK Hegde Nagar","shop_name":"ASSISTIVE SERVICES"},{"phone":"","address":"Hanumanthe Gowda Circle, Kanarayanapura, Kothanur","shop_name":"ASR GLOBAL COMMUNICATIONS"},{"phone":"","address":"228A, Sarai Palya, Thannisandra Main Road","shop_name":"MOHAN MEDICALS"},{"phone":"","address":"Flr-1 Patel Bld Near Kothnur Bus Stop","shop_name":"SRI BALAJI ENTERPRISES"},{"phone":"","address":"406, 1st A Main, B Block, 2nd Stage, Rajaji Nagar","shop_name":"SRIVARI INC"},{"phone":"","address":"16, RK Hegde Nagar","shop_name":"GOOD LUCK ENTERPRISES"},{"phone":"","address":"455, Santhosh Complex, Ramakrishna Hegde Nagar, Near Dr SRK Nagar","shop_name":"SANTHOSH ENTERPRISES"},{"phone":"","address":"Hanumantha Gowda Circle, Kanarayanapura, Kothanur","shop_name":"FRIENDS MOBILES"},{"phone":"","address":"441, 1th Cross, RK Hegde Nagar","shop_name":"F M ENTERPRISSES"}]
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W43&amount=550.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=test&billing_contact.last_name=dev&billing_contact.email=test%40kyash.com&billing_contact.address=123+qwt&billing_contact.city=bengaluru&billing_contact.state=KA&billing_contact.pincode=560077&billing_contact.phone=560077&shipping_contact.first_name=test&shipping_contact.last_name=dev&shipping_contact.address=test%2Ctest&shipping_contact.city=bengaluru&shipping_contact.state=KA&shipping_contact.pincode=560077&shipping_contact.phone=560077
+Response: {"status":"error","billing_contact.phone":"Invalid Input. Please reenter Billing Contact.Phone","shipping_contact.phone":"Invalid Input. Please reenter Shipping Contact.Phone","message":"Error validating the given details. Please recheck the order, billing and shipping details."}
+Request2: https://api.kyash.in/v1/paymentpoints/560077
+Request: https://api.kyash.in/v1/paymentpoints/560077
+Response: [{"phone":"","address":"47, Fuji Arcad, 80Ft Double Road, Dr Shivaram Karantha Nagar, C&E Layout","shop_name":"MB ENTERPRISES"},{"phone":"","address":"5\/1, Thanisandra Main Road, Opp Maruthi Saw Mill, Vidya","shop_name":"M.A. ENTERPRISES"},{"phone":"","address":"31\/1, 2nd Phs, 5th Cross, Balaji Krupa Layout Hegde Nagar","shop_name":"GANESH ENTERPRISES"},{"phone":"","address":"49\/1, Near TNT Apt, & ICICI Bank, Thanisandra Main Road","shop_name":"KGN COMPUTERS"},{"phone":"","address":"3, 37\/3, 2nd Cross, Bharath Nagar, Thani Sandra Main Road, Sarai Palya","shop_name":"MUSKAAN ENTERPRISES"},{"phone":"","address":"758\/1, Near Masjid E Jamiya, RK Hegde Nagar","shop_name":"ASSISTIVE SERVICES"},{"phone":"","address":"Hanumanthe Gowda Circle, Kanarayanapura, Kothanur","shop_name":"ASR GLOBAL COMMUNICATIONS"},{"phone":"","address":"228A, Sarai Palya, Thannisandra Main Road","shop_name":"MOHAN MEDICALS"},{"phone":"","address":"Flr-1 Patel Bld Near Kothnur Bus Stop","shop_name":"SRI BALAJI ENTERPRISES"},{"phone":"","address":"406, 1st A Main, B Block, 2nd Stage, Rajaji Nagar","shop_name":"SRIVARI INC"},{"phone":"","address":"16, RK Hegde Nagar","shop_name":"GOOD LUCK ENTERPRISES"},{"phone":"","address":"455, Santhosh Complex, Ramakrishna Hegde Nagar, Near Dr SRK Nagar","shop_name":"SANTHOSH ENTERPRISES"},{"phone":"","address":"Hanumantha Gowda Circle, Kanarayanapura, Kothanur","shop_name":"FRIENDS MOBILES"},{"phone":"","address":"441, 1th Cross, RK Hegde Nagar","shop_name":"F M ENTERPRISSES"}]
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W43&amount=550.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=test&billing_contact.last_name=dev&billing_contact.email=test%40kyash.com&billing_contact.address=123+qwt&billing_contact.city=bengaluru&billing_contact.state=KA&billing_contact.pincode=560077&billing_contact.phone=560077&shipping_contact.first_name=test&shipping_contact.last_name=dev&shipping_contact.address=test%2Ctest&shipping_contact.city=bengaluru&shipping_contact.state=KA&shipping_contact.pincode=560077&shipping_contact.phone=560077
+Response: {"status":"error","billing_contact.phone":"Invalid Input. Please reenter Billing Contact.Phone","shipping_contact.phone":"Invalid Input. Please reenter Shipping Contact.Phone","message":"Error validating the given details. Please recheck the order, billing and shipping details."}
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W43&amount=550.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=test&billing_contact.last_name=dev&billing_contact.email=test%40kyash.com&billing_contact.address=123+qwt&billing_contact.city=bengaluru&billing_contact.state=KA&billing_contact.pincode=560077&billing_contact.phone=8050112266&shipping_contact.first_name=test&shipping_contact.last_name=dev&shipping_contact.address=test%2Ctest&shipping_contact.city=bengaluru&shipping_contact.state=KA&shipping_contact.pincode=560077&shipping_contact.phone=8050112266
+Response: {"status":"pending","shipping_contact":{"city":"bengaluru","first_name":"test","last_name":"dev","country":null,"pincode":560077,"phone":"8050112266","state":"KA","address":"test,test","email":null},"fee":26.1,"order_id":"W43","sms_enabled":true,"livemode":false,"amount":550,"id":"T39814843","cancellation_details":null,"fee_details":[{"amount":21.45,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"3.9%"},{"amount":2.65,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b921.45"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"bengaluru","first_name":"test","last_name":"dev","country":null,"pincode":560077,"phone":"8050112266","state":"KA","address":"123 qwt","email":"test@kyash.com"},"is_dvp":false,"capture_details":null,"created_at":1430198875,"expires_on":1430202475}
+Request2: https://api.kyash.in/v1/paymentpoints/560077
+Request: https://api.kyash.in/v1/paymentpoints/560077
+Response: [{"phone":"","address":"47, Fuji Arcad, 80Ft Double Road, Dr Shivaram Karantha Nagar, C&E Layout","shop_name":"MB ENTERPRISES"},{"phone":"","address":"5\/1, Thanisandra Main Road, Opp Maruthi Saw Mill, Vidya","shop_name":"M.A. ENTERPRISES"},{"phone":"","address":"31\/1, 2nd Phs, 5th Cross, Balaji Krupa Layout Hegde Nagar","shop_name":"GANESH ENTERPRISES"},{"phone":"","address":"49\/1, Near TNT Apt, & ICICI Bank, Thanisandra Main Road","shop_name":"KGN COMPUTERS"},{"phone":"","address":"3, 37\/3, 2nd Cross, Bharath Nagar, Thani Sandra Main Road, Sarai Palya","shop_name":"MUSKAAN ENTERPRISES"},{"phone":"","address":"758\/1, Near Masjid E Jamiya, RK Hegde Nagar","shop_name":"ASSISTIVE SERVICES"},{"phone":"","address":"Hanumanthe Gowda Circle, Kanarayanapura, Kothanur","shop_name":"ASR GLOBAL COMMUNICATIONS"},{"phone":"","address":"228A, Sarai Palya, Thannisandra Main Road","shop_name":"MOHAN MEDICALS"},{"phone":"","address":"Flr-1 Patel Bld Near Kothnur Bus Stop","shop_name":"SRI BALAJI ENTERPRISES"},{"phone":"","address":"406, 1st A Main, B Block, 2nd Stage, Rajaji Nagar","shop_name":"SRIVARI INC"},{"phone":"","address":"16, RK Hegde Nagar","shop_name":"GOOD LUCK ENTERPRISES"},{"phone":"","address":"455, Santhosh Complex, Ramakrishna Hegde Nagar, Near Dr SRK Nagar","shop_name":"SANTHOSH ENTERPRISES"},{"phone":"","address":"Hanumantha Gowda Circle, Kanarayanapura, Kothanur","shop_name":"FRIENDS MOBILES"},{"phone":"","address":"441, 1th Cross, RK Hegde Nagar","shop_name":"F M ENTERPRISSES"}]
+Array
+(
+    [order_id] => W43
+    [kyash_code] => T39814843
+    [status] => paid
+    [paid_by] => 8050112266
+    [amount] => 550
+)
+
+Array
+(
+    [action] => kyash-handler
+    [status] => paid
+    [nonce] => e90e03f570299e86e3cba67c461a8507
+    [amount] => 550
+    [order_id] => W43
+    [timestamp] => 1430200820
+    [paid_by] => 8050112266
+    [kyash_code] => T39814843
+)
+
+Array
+(
+    [User-Agent] => Python-urllib/2.7 AppEngine-Google; (+http://code.google.com/appengine; appid: s~bilentapp)
+    [Accept-Encoding] => gzip,deflate
+    [Connection] => close
+    [Content-Length] => 135
+    [X-Cloud-Trace-Context] => ChIJIZlGn_5o9u4RWq5YuKRmi0gRZLlRHm2kCJ0YAA
+    [Content-Type] => application/x-www-form-urlencoded
+    [Host] => www.wordpress.adlok.com
+    [Authorization] => HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOjVTTEt0U3NEeVo0NHhnVE84a25Wdndwby9KWnBvdVZua0oxejlNejUyTE09
+)
+
+Authorization:HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOjVTTEt0U3NEeVo0NHhnVE84a25Wdndwby9KWnBvdVZua0oxejlNejUyTE09
+Normalized request string:POST&http%3A%2F%2Fwww.wordpress.adlok.com%2F%3Faction%3Dkyash-handler&amount%3D550%26kyash_code%3DT39814843%26nonce%3De90e03f570299e86e3cba67c461a8507%26order_id%3DW43%26paid_by%3D8050112266%26status%3Dpaid%26timestamp%3D1430200820
+Prepared signature: HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOjVTTEt0U3NEeVo0NHhnVE84a25Wdndwby9KWnBvdVZua0oxejlNejUyTE09
+HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOjVTTEt0U3NEeVo0NHhnVE84a25Wdndwby9KWnBvdVZua0oxejlNejUyTE09\nHMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOjVTTEt0U3NEeVo0NHhnVE84a25Wdndwby9KWnBvdVZua0oxejlNejUyTE09
+Request: https://api.kyash.in/v1/kyashcodes/T39814843/cancel => reason=requested_by_customer
+Response: {"refunded":false,"refund_amount":null,"payment_notes":null,"should_refund":true,"reason":"requested_by_customer","charge_paid_by":"customer","cancelled_at":1430200956,"refund_charges":null}
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W44&amount=250.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Expiry&billing_contact.last_name=K&billing_contact.email=sandeep%40bilent.in&billing_contact.address=234%2C+SRS+Layout&billing_contact.city=Bangalore&billing_contact.state=KA&billing_contact.pincode=560078&billing_contact.phone=08050112299&shipping_contact.first_name=Expiry&shipping_contact.last_name=K&shipping_contact.address=Expiry%2CExpiry&shipping_contact.city=Bangalore&shipping_contact.state=KA&shipping_contact.pincode=560078&shipping_contact.phone=08050112299
+Response: {"status":"pending","shipping_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":560078,"phone":"08050112299","state":"KA","address":"Expiry,Expiry","email":null},"fee":15.48,"order_id":"W44","sms_enabled":true,"livemode":false,"amount":250,"id":"T62095405","cancellation_details":null,"fee_details":[{"amount":12,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"Min \u20b912"},{"amount":1.48,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b912.0"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"K","country":null,"pincode":560078,"phone":"08050112299","state":"KA","address":"234, SRS Layout","email":"sandeep@bilent.in"},"is_dvp":false,"capture_details":null,"created_at":1430201095,"expires_on":1430204695}
+Request2: https://api.kyash.in/v1/paymentpoints/560078
+Request: https://api.kyash.in/v1/paymentpoints/560078
+Response: [{"phone":"","address":"27, Jagruthi Colony 13th Main Ptnhalli Main Road JP Nagar 7th Phs","shop_name":"THE LINKS"},{"phone":"","address":"1549, E End Circle JP Nagar 3rd Phs","shop_name":"S V COMMUNICATIONS"},{"phone":"","address":"24, 4th Cross Sarakki Gate Kanakapura Main Road JP Nagar","shop_name":"B S K COMPUTER SOLUTIONS"}]
+Array
+(
+    [order_id] => W44
+    [kyash_code] => T62095405
+    [status] => expired
+    [paid_by] => 
+    [amount] => 
+)
+
+Array
+(
+    [action] => kyash-handler
+    [order_id] => W44
+    [status] => expired
+    [nonce] => ed9e987a8d7a8cc76d6faba8adb53fe6
+    [kyash_code] => T62095405
+    [timestamp] => 1430204695
+)
+
+Array
+(
+    [User-Agent] => Python-urllib/2.7 AppEngine-Google; (+http://code.google.com/appengine; appid: s~bilentapp)
+    [Accept-Encoding] => gzip,deflate
+    [Connection] => close
+    [Content-Length] => 108
+    [X-Cloud-Trace-Context] => ChIJUh7a2bBmiYwR-pwsgRuc1zoRwT6V8Ar48zYYAA
+    [Content-Type] => application/x-www-form-urlencoded
+    [Host] => www.wordpress.adlok.com
+    [Authorization] => HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOjlDbys1NHJmTmQ5S0tOUEVCcmpWS0k5S2VBU2c2TnF6eGZ2aE5rSzZqNFE9
+)
+
+Authorization:HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOjlDbys1NHJmTmQ5S0tOUEVCcmpWS0k5S2VBU2c2TnF6eGZ2aE5rSzZqNFE9
+Normalized request string:POST&http%3A%2F%2Fwww.wordpress.adlok.com%2F%3Faction%3Dkyash-handler&amount%3D%26kyash_code%3DT62095405%26nonce%3Ded9e987a8d7a8cc76d6faba8adb53fe6%26order_id%3DW44%26paid_by%3D%26status%3Dexpired%26timestamp%3D1430204695
+Prepared signature: HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOmh3U05CYnQyOVNRMVVvY1hVdzVFdnl6ZFh6ekg2WEtIenhpb2dFRlErTXc9
+HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOjlDbys1NHJmTmQ5S0tOUEVCcmpWS0k5S2VBU2c2TnF6eGZ2aE5rSzZqNFE9\nHMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOmh3U05CYnQyOVNRMVVvY1hVdzVFdnl6ZFh6ekg2WEtIenhpb2dFRlErTXc9
+HTTP/1.1 401 Unauthorized - Signature doest not match
+Request2: https://api.kyash.in/v1/paymentpoints/560078
+Request: https://api.kyash.in/v1/paymentpoints/560078
+Response: [{"phone":"","address":"27, Jagruthi Colony 13th Main Ptnhalli Main Road JP Nagar 7th Phs","shop_name":"THE LINKS"},{"phone":"","address":"1549, E End Circle JP Nagar 3rd Phs","shop_name":"S V COMMUNICATIONS"},{"phone":"","address":"24, 4th Cross Sarakki Gate Kanakapura Main Road JP Nagar","shop_name":"B S K COMPUTER SOLUTIONS"}]
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W45&amount=100.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Expiry&billing_contact.last_name=Test&billing_contact.email=sandeep%40bilent.in&billing_contact.address=234%2C+SRS+Layout&billing_contact.city=Bangalore&billing_contact.state=KA&billing_contact.pincode=560078&billing_contact.phone=08050112299&shipping_contact.first_name=Expiry&shipping_contact.last_name=Test&shipping_contact.address=Expiry%2CExpiry&shipping_contact.city=Bangalore&shipping_contact.state=KA&shipping_contact.pincode=560078&shipping_contact.phone=08050112299
+Response: {"status":"pending","shipping_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"Test","country":null,"pincode":560078,"phone":"08050112299","state":"KA","address":"Expiry,Expiry","email":null},"fee":15.48,"order_id":"W45","sms_enabled":true,"livemode":false,"amount":100,"id":"T38253094","cancellation_details":null,"fee_details":[{"amount":12,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"Min \u20b912"},{"amount":1.48,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b912.0"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"Test","country":null,"pincode":560078,"phone":"08050112299","state":"KA","address":"234, SRS Layout","email":"sandeep@bilent.in"},"is_dvp":false,"capture_details":null,"created_at":1430219400,"expires_on":1430223000}
+Request2: https://api.kyash.in/v1/paymentpoints/560078
+Request: https://api.kyash.in/v1/paymentpoints/560078
+Response: [{"phone":"","address":"27, Jagruthi Colony 13th Main Ptnhalli Main Road JP Nagar 7th Phs","shop_name":"THE LINKS"},{"phone":"","address":"1549, E End Circle JP Nagar 3rd Phs","shop_name":"S V COMMUNICATIONS"},{"phone":"","address":"24, 4th Cross Sarakki Gate Kanakapura Main Road JP Nagar","shop_name":"B S K COMPUTER SOLUTIONS"}]
+Request2: https://api.kyash.in/v1/paymentpoints/560077
+Request: https://api.kyash.in/v1/paymentpoints/560077
+Response: [{"phone":"","address":"47, Fuji Arcad, 80Ft Double Road, Dr Shivaram Karantha Nagar, C&E Layout","shop_name":"MB ENTERPRISES"},{"phone":"","address":"5\/1, Thanisandra Main Road, Opp Maruthi Saw Mill, Vidya","shop_name":"M.A. ENTERPRISES"},{"phone":"","address":"31\/1, 2nd Phs, 5th Cross, Balaji Krupa Layout Hegde Nagar","shop_name":"GANESH ENTERPRISES"},{"phone":"","address":"49\/1, Near TNT Apt, & ICICI Bank, Thanisandra Main Road","shop_name":"KGN COMPUTERS"},{"phone":"","address":"3, 37\/3, 2nd Cross, Bharath Nagar, Thani Sandra Main Road, Sarai Palya","shop_name":"MUSKAAN ENTERPRISES"},{"phone":"","address":"758\/1, Near Masjid E Jamiya, RK Hegde Nagar","shop_name":"ASSISTIVE SERVICES"},{"phone":"","address":"Hanumanthe Gowda Circle, Kanarayanapura, Kothanur","shop_name":"ASR GLOBAL COMMUNICATIONS"},{"phone":"","address":"228A, Sarai Palya, Thannisandra Main Road","shop_name":"MOHAN MEDICALS"},{"phone":"","address":"Flr-1 Patel Bld Near Kothnur Bus Stop","shop_name":"SRI BALAJI ENTERPRISES"},{"phone":"","address":"406, 1st A Main, B Block, 2nd Stage, Rajaji Nagar","shop_name":"SRIVARI INC"},{"phone":"","address":"16, RK Hegde Nagar","shop_name":"GOOD LUCK ENTERPRISES"},{"phone":"","address":"455, Santhosh Complex, Ramakrishna Hegde Nagar, Near Dr SRK Nagar","shop_name":"SANTHOSH ENTERPRISES"},{"phone":"","address":"Hanumantha Gowda Circle, Kanarayanapura, Kothanur","shop_name":"FRIENDS MOBILES"},{"phone":"","address":"441, 1th Cross, RK Hegde Nagar","shop_name":"F M ENTERPRISSES"}]
+Array
+(
+    [order_id] => W45
+    [kyash_code] => T38253094
+    [status] => expired
+    [paid_by] => 
+    [amount] => 
+)
+
+Array
+(
+    [action] => kyash-handler
+    [order_id] => W45
+    [status] => expired
+    [nonce] => e8c842e87cc8318941c984bdd36582a2
+    [kyash_code] => T38253094
+    [timestamp] => 1430223000
+)
+
+Array
+(
+    [User-Agent] => Python-urllib/2.7 AppEngine-Google; (+http://code.google.com/appengine; appid: s~bilentapp)
+    [Accept-Encoding] => gzip,deflate
+    [Connection] => close
+    [Content-Length] => 108
+    [X-Cloud-Trace-Context] => ChIJZccwvPB4DoYR-NuI_kDbrokRJYMIKt5XMRgYAA
+    [Content-Type] => application/x-www-form-urlencoded
+    [Host] => www.wordpress.adlok.com
+    [Authorization] => HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOndRUUFHRjQzbXJrOHdDYjV1OCtwOWNyZFpJMGtQYmh3aTI4M0hvY21USmM9
+)
+
+Authorization:HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOndRUUFHRjQzbXJrOHdDYjV1OCtwOWNyZFpJMGtQYmh3aTI4M0hvY21USmM9
+Normalized request string:POST&http%3A%2F%2Fwww.wordpress.adlok.com%2F%3Faction%3Dkyash-handler&%26kyash_code%3DT38253094%26nonce%3De8c842e87cc8318941c984bdd36582a2%26order_id%3DW45%26status%3Dexpired%26timestamp%3D1430223000
+Prepared signature: HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOnlHdkkwMGxGY1hlaDZiRWN5TlF0c3VvdXk2THBZWHA1cE9qdHRtVlVRaFE9
+HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOndRUUFHRjQzbXJrOHdDYjV1OCtwOWNyZFpJMGtQYmh3aTI4M0hvY21USmM9\nHMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOnlHdkkwMGxGY1hlaDZiRWN5TlF0c3VvdXk2THBZWHA1cE9qdHRtVlVRaFE9
+HTTP/1.1 401 Unauthorized - Signature doest not match
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W46&amount=250.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Expiry&billing_contact.last_name=Test2&billing_contact.email=sandeep%40bilent.in&billing_contact.address=234%2C+SRS+Layout&billing_contact.city=Bangalore&billing_contact.state=KA&billing_contact.pincode=560078&billing_contact.phone=08050112299&shipping_contact.first_name=Expiry&shipping_contact.last_name=Test2&shipping_contact.address=Expiry%2CExpiry&shipping_contact.city=Bangalore&shipping_contact.state=KA&shipping_contact.pincode=560078&shipping_contact.phone=08050112299
+Response: {"status":"pending","shipping_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"Test2","country":null,"pincode":560078,"phone":"08050112299","state":"KA","address":"Expiry,Expiry","email":null},"fee":15.48,"order_id":"W46","sms_enabled":true,"livemode":false,"amount":250,"id":"T46473818","cancellation_details":null,"fee_details":[{"amount":12,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"Min \u20b912"},{"amount":1.48,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b912.0"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"Test2","country":null,"pincode":560078,"phone":"08050112299","state":"KA","address":"234, SRS Layout","email":"sandeep@bilent.in"},"is_dvp":false,"capture_details":null,"created_at":1430224813,"expires_on":1430228413}
+Request2: https://api.kyash.in/v1/paymentpoints/560078
+Request: https://api.kyash.in/v1/paymentpoints/560078
+Response: [{"phone":"","address":"27, Jagruthi Colony 13th Main Ptnhalli Main Road JP Nagar 7th Phs","shop_name":"THE LINKS"},{"phone":"","address":"1549, E End Circle JP Nagar 3rd Phs","shop_name":"S V COMMUNICATIONS"},{"phone":"","address":"24, 4th Cross Sarakki Gate Kanakapura Main Road JP Nagar","shop_name":"B S K COMPUTER SOLUTIONS"}]
+Array
+(
+    [order_id] => W46
+    [kyash_code] => T46473818
+    [status] => expired
+    [paid_by] => 
+    [amount] => 
+)
+
+Array
+(
+    [action] => kyash-handler
+    [order_id] => W46
+    [status] => expired
+    [nonce] => 9148906cf962592239098563721bd5f2
+    [kyash_code] => T46473818
+    [timestamp] => 1430228413
+)
+
+Array
+(
+    [User-Agent] => Python-urllib/2.7 AppEngine-Google; (+http://code.google.com/appengine; appid: s~bilentapp)
+    [Accept-Encoding] => gzip,deflate
+    [Connection] => close
+    [Content-Length] => 108
+    [X-Cloud-Trace-Context] => ChIJTwZUQbfrVMwRwap2AGJMvxwRCyToJ4DhWbwYAA
+    [Content-Type] => application/x-www-form-urlencoded
+    [Host] => www.wordpress.adlok.com
+    [Authorization] => HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOjhRNGM0RWtzOGU4RUczZTExdTlVbisyQllETm1UNXBYVFNrVEN6bHJiOFU9
+)
+
+Authorization:HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOjhRNGM0RWtzOGU4RUczZTExdTlVbisyQllETm1UNXBYVFNrVEN6bHJiOFU9
+Normalized request string:POST&http%3A%2F%2Fwww.wordpress.adlok.com%2F%3Faction%3Dkyash-handler&kyash_code%3DT46473818%26nonce%3D9148906cf962592239098563721bd5f2%26order_id%3DW46%26status%3Dexpired%26timestamp%3D1430228413
+Prepared signature: HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOjhRNGM0RWtzOGU4RUczZTExdTlVbisyQllETm1UNXBYVFNrVEN6bHJiOFU9
+HMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOjhRNGM0RWtzOGU4RUczZTExdTlVbisyQllETm1UNXBYVFNrVEN6bHJiOFU9\nHMAC MDg0MDM4M2YtMjlhOS00ODAxLTg2MzgtMWI2NDJiMWZlOWZiOjhRNGM0RWtzOGU4RUczZTExdTlVbisyQllETm1UNXBYVFNrVEN6bHJiOFU9
+Request: https://api.kyash.in/v1/kyashcodes/ => order_id=W47&amount=100.00&is_dvp=0&sms_enabled=1&billing_contact.first_name=Expiry&billing_contact.last_name=Test3&billing_contact.email=sandeep%40bilent.in&billing_contact.address=234%2C+SRS+Layout&billing_contact.city=Bangalore&billing_contact.state=KA&billing_contact.pincode=560078&billing_contact.phone=08050112299&shipping_contact.first_name=Expiry&shipping_contact.last_name=Test3&shipping_contact.address=Expiry%2CExpiry&shipping_contact.city=Bangalore&shipping_contact.state=KA&shipping_contact.pincode=560078&shipping_contact.phone=08050112299
+Response: {"status":"pending","shipping_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"Test3","country":null,"pincode":560078,"phone":"08050112299","state":"KA","address":"Expiry,Expiry","email":null},"fee":15.48,"order_id":"W47","sms_enabled":true,"livemode":false,"amount":100,"id":"T85003138","cancellation_details":null,"fee_details":[{"amount":12,"charged_by":"Kyash","description":"Kyash Service Charges","rule":"Min \u20b912"},{"amount":1.48,"charged_by":"Kyash","description":"Service Tax","rule":"12.36% of \u20b912.0"},{"amount":2,"charged_by":"Kyash","description":"SMS Charges","rule":"fixed cost."}],"paid_at":null,"billing_contact":{"city":"Bangalore","first_name":"Expiry","last_name":"Test3","country":null,"pincode":560078,"phone":"08050112299","state":"KA","address":"234, SRS Layout","email":"sandeep@bilent.in"},"is_dvp":false,"capture_details":null,"created_at":1430229108,"expires_on":1430232708}
+Request2: https://api.kyash.in/v1/paymentpoints/560078
+Request: https://api.kyash.in/v1/paymentpoints/560078
+Response: [{"phone":"","address":"27, Jagruthi Colony 13th Main Ptnhalli Main Road JP Nagar 7th Phs","shop_name":"THE LINKS"},{"phone":"","address":"1549, E End Circle JP Nagar 3rd Phs","shop_name":"S V COMMUNICATIONS"},{"phone":"","address":"24, 4th Cross Sarakki Gate Kanakapura Main Road JP Nagar","shop_name":"B S K COMPUTER SOLUTIONS"}]

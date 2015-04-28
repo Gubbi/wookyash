@@ -1,0 +1,31 @@
+#see_nearby_shops_container{
+	max-height:250px;
+	overflow:auto;
+}
+.kyash_succcess_instructions{
+	margin-top:0px;
+}
+#see_nearby_shops_container{
+	margin-top:10px;
+}
+#kyash_postcode_payment{
+	margin-left:10px;
+}
+#kyash_postcode_payment  a{
+	font-size:11px;
+	float:none;
+}
+#kyash_postcode_payment_sub{
+	margin-left:5px;
+	display:none;
+}
+#kyash_postcode_payment_sub label{
+	font-size:11px;
+	min-width:45px;
+	padding:0;
+}
+#kyash_postcode_payment_sub input{
+	text-align: center;
+	width: 110px;
+	font-size:11px;
+}
