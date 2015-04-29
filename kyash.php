@@ -180,8 +180,6 @@ one HMAC Secret is generated per Merchant. It can be changed from your account.'
 			$params = array (
 				'order_id' => 'W'.$order->id,
 				'amount' => $order->order_total,
-				'is_dvp' => false,
-				'sms_enabled' => true,
 				'billing_contact.first_name' => $order->billing_first_name,
 				'billing_contact.last_name' => $order->billing_last_name,
 				'billing_contact.email' => $order->billing_email,
