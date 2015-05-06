@@ -1,5 +1,6 @@
 <style><?php echo @file_get_contents(KYASH_DIR.'assets/css/success.css') ?></style>
 <h1>Kyash Code: <?php echo $kyash_code?></h1>
+<span><?php echo "Kyashcode expires on ".date("j M Y, g:i A", strtotime($expires_on));?></span>
 <div class="kyash_succcess_instructions" style="border-top:1px solid #ededed;">
     <p><?php echo nl2br(html_entity_decode($kyash_instructions))?></p>
 </div>
