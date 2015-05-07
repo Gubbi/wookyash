@@ -1,5 +1,5 @@
 # wookyash
-Kyash plugin for WooCommerce store.
+Woocommerce Integration Kit for the [Kyash Payment Gateway](http://www.kyash.com/).
 
 ## Installation
 1. Login to your Admin Dashboard.
