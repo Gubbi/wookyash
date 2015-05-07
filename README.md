@@ -13,7 +13,7 @@ Woocommerce Integration Kit for the [Kyash Payment Gateway](http://www.kyash.com
 3. There are two types of credentials you can enter: 
   - To test the system, use the *Developer* credentials.
   - To make the system live and accept your customer payments use the *Production* credentials.
-4. Copy the *Callback URL* (e.g. `http://www.kyash.com/?action=kyash-handler`) to your Kyash Account Settings and click `Set` to update the callback URL.
+4. Copy the *Callback URL* (e.g. `http://www.yourstore.com/?action=kyash-handler`) to your Kyash Account Settings and click `Set` to update the callback URL.
 
 ## Testing the Integration.
 1. Place an order from your Woocommerce store.
