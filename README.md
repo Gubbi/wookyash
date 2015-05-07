@@ -13,7 +13,7 @@ Woocommerce Integration Kit for the [Kyash Payment Gateway](http://www.kyash.com
 3. There are two types of credentials you can enter: 
   - To test the system, use the *Developer* credentials.
   - To make the system live and accept your customer payments use the *Production* credentials.
-4. Copy the *Callback URL* (e.g. `http://www.yourstore.com/?action=kyash-handler`) to your Kyash Account Settings and click `Set` to update the callback URL.
+4. Copy the *Callback URL* (e.g. `http://www.kyash.com/?action=kyash-handler`) to your Kyash Account Settings and click `Set` to update the callback URL.
 
 ## Testing the Integration.
 1. Place an order from your Woocommerce store.
@@ -24,6 +24,23 @@ Woocommerce Integration Kit for the [Kyash Payment Gateway](http://www.kyash.com
 6. Enter the KyashCode in the search box.
 7. You should see a `Mark as Paid` button there.
 8. Clicking this should change the order status from *On Hold* to *Processing* in your Woocommerce order details page.
+
+## Troubleshooting
+### Paid and Expired KyashCodes are not being marked as such in Woocommerce.
+Once you have successfully installed Kyash plugin, if your orders are not being marked as paid after payment is done, then follow the below steps.
+
+* Configure the Kyash plugin using your Kyash *Development API Credentials*.
+* Create a test order with Kyash as the payment option.
+* Note down the KyashCode returned.
+* Login to your Kyash account and search for the KyashCode.
+* Mark it as Paid.
+* Check if the order status changes from "On Hold" to "Processing" in Woocommerce.
+* If the status has not changed, then make the following entry in your .htaccess file just after the `RewriteEngine On` entry.
+```
+RewriteCond %{HTTP:Authorization} .+
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+```
+* Create another test order and mark it as paid to see if the issue is now fixed.
 
 ## Support
 Contact developers@kyash.com for any issues you might be facing with this Kyash extension or call +91 8050114225.
