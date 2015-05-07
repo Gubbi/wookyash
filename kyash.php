@@ -161,7 +161,10 @@ one HMAC Secret is generated per Merchant. It can be changed from your account.'
 			$postcode = $order->billing_postcode;
 			$kyash_instructions = $this->instructions;
 			$kyash_code = KyashHelper::getKyashOrder($order_id,'kyash_code');
-			$expires_on = KyashHelper::getKyashOrder($order_id,'expires_on');
+            $kc_expires_on = KyashHelper::getKyashOrder($order_id,'kyash_expires');
+            $dateTime = new DateTime("@".$kc_expires_on);
+            $dateTime->setTimeZone(new DateTimeZone('Asia/Kolkata'));
+            $expires_on = $dateTime->format("j M Y, g:i A");
 			$url = get_home_url().'/?action=kyash-get-paypoints-success';
 			include_once(KYASH_DIR.'views/thankyou.php');
 		}
@@ -212,11 +215,10 @@ one HMAC Secret is generated per Merchant. It can be changed from your account.'
 
 			$order = new WC_Order( $order_id );
 			$settings = $this->getSettings();
-			$api = new KyashPay($settings['public_api_id'],$settings['api_secret']);
+			$api = new KyashPay($settings['public_api_id'],$settings['api_secret'],$settings['callback_secret'],$settings['hmac_secret']);
 			$api->setLogger(new KyashHelper);
 			$params = $this->getOrderParams($order);
 			$response = $api->createKyashCode($params);
-
 			$json = array();
 			if(isset($response['status']) && $response['status'] == 'error')
 			{
@@ -232,8 +234,7 @@ one HMAC Secret is generated per Merchant. It can be changed from your account.'
 				update_post_meta($order_id, '_payment_method_title', $method.', Kyash code - '.$response['id']);
 				KyashHelper::updateKyashOrder($order_id,'kyash_code',$response['id']);
 				KyashHelper::updateKyashOrder($order_id,'kyash_status','pending');
-				$expiry_time = date("Y-m-d h:i:s", $response['expires_on']);
-				KyashHelper::updateKyashOrder($order_id,'expires_on', $expiry_time);
+				KyashHelper::updateKyashOrder($order_id,'kyash_expires', $response['expires_on']);
 
 				return array(
 					'result' 	=> 'success',
@@ -317,7 +318,7 @@ one HMAC Secret is generated per Merchant. It can be changed from your account.'
 			
 			$kyashPayment = new WC_Gateway_Kyash;
 			$settings = $kyashPayment->getSettings();
-			$api = new KyashPay($settings['public_api_id'],$settings['api_secret']);
+			$api = new KyashPay($settings['public_api_id'],$settings['api_secret'],$settings['callback_secret'],$settings['hmac_secret']);
 			$api->setLogger(new KyashHelper);
 			
 			if (!empty($kyash_code)) 
@@ -374,9 +375,16 @@ one HMAC Secret is generated per Merchant. It can be changed from your account.'
 				}
 				else if($order->post_status == 'wc-completed')
 				{
+                    $server_kc = $api->getKyashCode($kyash_code);
+                    if (isset($server_kc['status']) && $server_kc['status'] !== 'error') {
+                        if ($kyash_status !== $server_kc['status']) {
+                            KyashHelper::updateKyashOrder($order_id,'kyash_status',$server_kc['status']);
+                            $kyash_status = $server_kc['status'];
+                        }
+                    }
 					if($kyash_status == 'pending')
 					{
-						$response = $api->cancel($kyash_code);
+						$response = $api->cancel($kyash_code,$reason="using_another_payment_method");
 						if(isset($response['status']) && $response['status'] == 'error')
 						{
 							update_option('kyash_order_view_error',$response['message']);
@@ -423,7 +431,7 @@ one HMAC Secret is generated per Merchant. It can be changed from your account.'
 			{
 				$kyashPayment = new WC_Gateway_Kyash;
 				$settings = $kyashPayment->getSettings();
-				$api = new KyashPay($settings['public_api_id'],$settings['api_secret']);
+				$api = new KyashPay($settings['public_api_id'],$settings['api_secret'],$settings['callback_secret'],$settings['hmac_secret']);
 				$api->setLogger(new KyashHelper);
 			
 				foreach ($ids as $order_id) 
@@ -504,9 +512,16 @@ one HMAC Secret is generated per Merchant. It can be changed from your account.'
 							}
 							else if($order->post_status == 'wc-completed')
 							{
+                                $server_kc = $api->getKyashCode($kyash_code);
+                                if (isset($server_kc['status']) && $server_kc['status'] !== 'error') {
+                                    if ($kyash_status !== $server_kc['status']) {
+                                        KyashHelper::updateKyashOrder($order_id,'kyash_status',$server_kc['status']);
+                                        $kyash_status = $server_kc['status'];
+                                    }
+                                }
 								if($kyash_status == 'pending')
 								{
-									$response = $api->cancel($kyash_code);
+									$response = $api->cancel($kyash_code,$reason="using_another_payment_method");
 									if(isset($response['status']) && $response['status'] == 'error')
 									{
 										$message = 'Order #'.$order_id.': '.$response['message'];
@@ -600,7 +615,7 @@ function kyash_activate()
 		`order_id` int(10) unsigned NOT NULL,
 		`kyash_code` varchar(200),
 		`kyash_status` varchar(200),
-		`expires_on` timestamp
+		`kyash_expires` int(10) unsigned NOT NULL
 		) DEFAULT CHARSET=utf8';
 	dbDelta($sql);
 }

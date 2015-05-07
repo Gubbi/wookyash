@@ -5,7 +5,7 @@ class KyashActions
 	{
 		$pincode = $_GET['postcode'];
 		$settings = self::getSettings();
-		$api = new KyashPay($settings['public_api_id'],$settings['api_secret']);
+		$api = new KyashPay($settings['public_api_id'],$settings['api_secret'],$settings['callback_secret'],$settings['hmac_secret']);
 		$api->setLogger(new KyashHelper);
 		
 		$response = $api->getPaymentPoints($pincode);
@@ -26,7 +26,7 @@ class KyashActions
 	{
 		$pincode = $_GET['postcode'];
 		$settings = self::getSettings();
-		$api = new KyashPay($settings['public_api_id'],$settings['api_secret']);
+		$api = new KyashPay($settings['public_api_id'],$settings['api_secret'],$settings['callback_secret'],$settings['hmac_secret']);
 		$api->setLogger(new KyashHelper);
 		$response = $api->getPaymentPoints($pincode);
 		if(isset($response['status']) && $response['status'] == 'error')
@@ -45,17 +45,10 @@ class KyashActions
 	public static function handler()
 	{
 		$settings = self::getSettings();
-		$api = new KyashPay($settings['public_api_id'],$settings['callback_secret'],$settings['hmac_secret']);
+		$api = new KyashPay($settings['public_api_id'],$settings['api_secret'],$settings['callback_secret'],$settings['hmac_secret']);
 		$api->setLogger(new KyashHelper);
-		
-		$params = array();
-		$params['order_id'] = trim($_POST['order_id']);
-		$params['kyash_code'] = trim($_POST['kyash_code']);
-		$params['status'] = trim($_POST['status']);
-		$params['paid_by'] = trim($_POST['paid_by']);
-		$params['amount'] = trim($_POST['amount']);
-		
-		$order_id = substr($params['order_id'],1);
+
+		$order_id = substr($_REQUEST['order_id'],1);
 		$order = new WC_Order( $order_id );
 		if(!$order)
 		{
@@ -67,7 +60,7 @@ class KyashActions
 		{
 			$url = get_home_url().'/?action=kyash-handler';
 			$updater = new KyashUpdater($order);
-			$api->handler($params,KyashHelper::getKyashOrder($order_id,'kyash_code'),KyashHelper::getKyashOrder($order_id,'kyash_status'),$url,$updater);
+			$api->callback_handler($updater,KyashHelper::getKyashOrder($order_id,'kyash_code'),KyashHelper::getKyashOrder($order_id,'kyash_status'),$url);
 		}
 	}
 	
@@ -100,12 +93,12 @@ class KyashUpdater
 	{
 		if($status == 'paid')
 		{
-			KyashHelper::updateKyashOrder($order_id,'kyash_status','paid');
+			KyashHelper::updateKyashOrder(substr($_REQUEST['order_id'],1),'kyash_status','paid');
 			$this->order->update_status( 'processing',$comment);
 		}
 		else if($status == 'expired')
 		{
-			KyashHelper::updateKyashOrder($order_id,'kyash_status','expired');
+			KyashHelper::updateKyashOrder(substr($_REQUEST['order_id'],1),'kyash_status','expired');
 			$this->order->update_status( 'cancelled',$comment);
 		}
 	}
