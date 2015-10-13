@@ -1,13 +1,13 @@
 <?php
 
 class KyashPay {
-    private static $baseUri = 'http://localhost:8082/v1';
+    private static $baseUri = 'https://api.kyash.in/v1';
     public $key = '';
     public $secret = '';
     public $hmac = NULL;
     public $callback_secret = NULL;
     public $logger = NULL;
-    public $use_https = false;
+    public $use_https = true;
 
 
     public function __construct($key, $secret, $callback_secret, $hmac) {
