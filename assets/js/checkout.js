@@ -38,7 +38,7 @@ jQuery(document).ready(function(){
 
 function openShops(url,loader)
 {
-	jQuery("#kyash_postcode_payment_sub").show();
+	//jQuery("#kyash_postcode_payment_sub").show();
 	jQuery("#see_nearby_shops_container").hide();
 	selectKyash();
 	jQuery("#kyash_open").hide();

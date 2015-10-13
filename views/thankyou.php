@@ -5,10 +5,10 @@
     <p><?php echo nl2br(html_entity_decode($kyash_instructions))?></p>
 </div>
 <div class="kyash_succcess_instructions2">
-    <input type="text" class="input-text" id="postcode" value="<?php echo $postcode?>" maxlength="12" style="width:120px; text-align:center" 
+    <input type="hidden" class="input-text" id="postcode" value="<?php echo $postcode?>" maxlength="12" style="width:120px; text-align:center"
     onblur="if(this.value ==''){this.value='Enter Pincode';}" 
     onclick="if(this.value == 'Enter Pincode'){this.value='';}" />
-    <input type="button" class="button" id="kyash_postcode_button" value="See nearby shops" onclick="preparePullShops()">
+<!--    <input type="button" class="button" id="kyash_postcode_button" value="See nearby shops" onclick="preparePullShops()">-->
 </div>
 <div style="display: none" id="see_nearby_shops_container" class="content">
 </div>

@@ -279,8 +279,8 @@ one HMAC Secret is generated per Merchant. It can be changed from your account.'
 				</a>
 			   
 				<span id="kyash_postcode_payment_sub">
-					<input type="text" class="input-text" id="kyash_postcode" value="" maxlength="12" />
-					<input type="button" class="button" id="kyash_postcode_button" value="See nearby shops" onclick=\'pullNearByShops("'.$url.'","")\'>
+					<input type="hidden" class="input-text" id="kyash_postcode" value="" maxlength="12" />
+					<!--input type="button" class="button" id="kyash_postcode_button" value="See nearby shops" onclick=\'pullNearByShops("'.$url.'","")\' -->
 					<a href="javascript:void(0);" onclick="closeShops()" id="kyash_close" style="float:right">X</a>
 				</span>
 			</span>
