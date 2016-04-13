@@ -9,7 +9,6 @@ class KyashPay {
     public $logger = NULL;
     public $use_https = true;
 
-
     public function __construct($key, $secret, $callback_secret, $hmac) {
         $this->key = $key;
         $this->secret = $secret;
@@ -23,13 +22,6 @@ class KyashPay {
 
     public function getKyashCode($kyash_code) {
         return $this->api_request(self::$baseUri . '/kyashcodes/' . $kyash_code);
-    }
-
-    public function capture($kyash_code) {
-        $url = self::$baseUri . '/kyashcodes/' . $kyash_code . '/capture';
-        $params = "completion_expected_by=" . strtotime("+3 day");
-        $params .= "&details=shipment completed";
-        return $this->api_request($url, $params);
     }
 
     public function cancel($kyash_code, $reason='requested_by_customer') {

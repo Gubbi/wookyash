@@ -261,37 +261,29 @@ one HMAC Secret is generated per Merchant. It can be changed from your account.'
 		public function get_icon() 
 		{
 			$icon_html = '';
-			$postcode = '122001';
-			$icon_html .= $this->getShopsLink();
+            $customer = new WC_Customer();
+            $postcode = $customer->get_postcode();
+			$icon_html .= $this->getShopsLink($postcode);
 			return apply_filters( 'woocommerce_gateway_icon', $icon_html, $this->id );
 		}
 		
-		public function getShopsLink()
+		public function getShopsLink($postcode)
 		{
 			$url = get_home_url().'/?action=kyash-get-paypoints';
 			
 			$css = '<style>'.@file_get_contents(KYASH_DIR.'assets/css/checkout.css').'</style>';
 			
-			$html = '
-			<span id="kyash_postcode_payment">
-				<a href="javascript:void(0);" onclick=\'openShops("'.$url.'","")\' id="kyash_open">
-				See nearby shops
-				</a>
-			   
-				<span id="kyash_postcode_payment_sub">
-					<input type="hidden" class="input-text" id="kyash_postcode" value="" maxlength="12" />
-					<!--input type="button" class="button" id="kyash_postcode_button" value="See nearby shops" onclick=\'pullNearByShops("'.$url.'","")\' -->
-					<a href="javascript:void(0);" onclick="closeShops()" id="kyash_close" style="float:right">X</a>
-				</span>
-			</span>
-			<div style="display: none" id="see_nearby_shops_container" class="content">
-			</div>';
+			$html = '<script type="text/javascript" src="//secure.kyash.com/outlets.js"></script>
+                     <p id="kyash_payment_instructions">Product will be sent to the shipping address only after payment. If order is cancelled or not delivered, you can avail refund as per our policies.</p>
+                     <div style="display: none">
+                        <kyash:code merchant_id="'.$this->settings["public_api_id"].'" postal_code="'.$postcode.'"></kyash:code>
+                     </div>';
 			$js = '
-			<script>
+			<!--script>
 			var pincodePlaceHolder = "Enter Pincode";
 			var loader = \'<img src="'.includes_url().'images/spinner.gif" alt="Processing..." />\';
 			'.@file_get_contents(KYASH_DIR.'assets/js/checkout.js').'
-			</script>
+			</script-->
 			';
 			return $css.$html.$js;
 		}
@@ -393,20 +385,6 @@ one HMAC Secret is generated per Merchant. It can be changed from your account.'
 						{
 							KyashHelper::updateKyashOrder($order_id,'kyash_status','cancelled');
 							$message = 'You have shipped before Kyash payment was done. Kyash payment collection has been cancelled for this order.';
-							update_option('kyash_order_view_success',$message);
-						}
-					}
-					else if($kyash_status == 'paid')
-					{
-						$response = $api->capture($kyash_code);
-						if(isset($response['status']) && $response['status'] == 'error')
-						{
-							update_option('kyash_order_view_error',$response['message']);
-						}
-						else
-						{
-							KyashHelper::updateKyashOrder($order_id,'kyash_status','captured');
-							$message = 'Kyash payment has been successfully captured.';
 							update_option('kyash_order_view_success',$message);
 						}
 					}
@@ -536,31 +514,6 @@ one HMAC Secret is generated per Merchant. It can be changed from your account.'
 									{
 										KyashHelper::updateKyashOrder($order_id,'kyash_status','cancelled');
 										$message='Order #'.$order_id.': You have shipped before Kyash payment was done. Kyash payment collection has been cancelled for this order.';
-										$success = get_option('kyash_order_view_success');
-										if($success)
-										{
-											$message = $success.'<br/>'.$message;
-										}
-										update_option('kyash_order_view_success',$message);
-									}
-								}
-								else if($kyash_status == 'paid')
-								{
-									$response = $api->capture($kyash_code);
-									if(isset($response['status']) && $response['status'] == 'error')
-									{
-										$message = 'Order #'.$order_id.': '.$response['message'];
-										$error = get_option('kyash_order_view_error');
-										if($error)
-										{
-											$message = $error.'<br/>'.$message;
-										}
-										update_option('kyash_order_view_error',$message);
-									}
-									else
-									{
-										KyashHelper::updateKyashOrder($order_id,'kyash_status','captured');
-										$message = 'Order #'.$order_id.': Kyash payment has been successfully captured.';
 										$success = get_option('kyash_order_view_success');
 										if($success)
 										{
