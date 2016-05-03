@@ -1,19 +1,4 @@
-<style><?php echo @file_get_contents(KYASH_DIR.'assets/css/success.css') ?></style>
-<h1>Kyash Code: <?php echo $kyash_code?></h1>
-<span>Kyashcode expires on <?php echo $expires_on?></span>
-<div class="kyash_succcess_instructions" style="border-top:1px solid #ededed;">
-    <p><?php echo nl2br(html_entity_decode($kyash_instructions))?></p>
+<script type="text/javascript" src="//secure.kyash.com/outlets.js"></script>
+<div style="display: none">
+    <kyash:code merchant_id="<?php echo $this->settings['public_api_id']?>" postal_code="<?php echo $postcode?>" kyash_code="<?php echo $kyash_code?>"></kyash:code>
 </div>
-<div class="kyash_succcess_instructions2">
-    <input type="text" class="input-text" id="postcode" value="<?php echo $postcode?>" maxlength="12" style="width:120px; text-align:center" 
-    onblur="if(this.value ==''){this.value='Enter Pincode';}" 
-    onclick="if(this.value == 'Enter Pincode'){this.value='';}" />
-    <input type="button" class="button" id="kyash_postcode_button" value="See nearby shops" onclick="preparePullShops()">
-</div>
-<div style="display: none" id="see_nearby_shops_container" class="content">
-</div>
-<script>
-	var loader = '<img src="<?php echo includes_url()?>images/spinner.gif" alt="Processing..." />';
-	var url = "<?php echo $url?>";
-	<?php echo @file_get_contents(KYASH_DIR.'assets/js/success.js') ?>
-</script>
