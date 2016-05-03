@@ -4,7 +4,7 @@ Woocommerce Integration Kit for the [Kyash Payment Gateway](http://www.kyash.com
 ## Installation
 1. Login to your Admin Dashboard.
 2. Go to `Plugins`->`Add New`->`Upload Plugin`
-3. Upload the [wookyash.zip](https://github.com/Gubbi/wookyash/archive/v1.0.zip) file by clicking `Install now` button. Click on `Activate Plugin` link.
+3. Upload the [wookyash.zip](https://github.com/Gubbi/wookyash/releases/download/1.21/wookyash-1.21.zip) file by clicking `Install now` button. Click on `Activate Plugin` link.
 4. On `Plugins` page you should see *Kyash* in the plugin list.
 
 ## Configuration
