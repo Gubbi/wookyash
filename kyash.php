@@ -154,15 +154,14 @@ one HMAC Secret is generated per Merchant. It can be changed from your account.'
 		/**
 		 * Output for the order received page.
 		 */
-		public function thankyou_page() 
+		public function thankyou_page($order_id)
 		{
-			$order_id = $_GET['order-received'];
 			$order = new WC_Order( $order_id );
 			$postcode = $order->billing_postcode;
 			$kyash_instructions = $this->instructions;
-			$kyash_code = KyashHelper::getKyashOrder($order_id,'kyash_code');
-            $kc_expires_on = KyashHelper::getKyashOrder($order_id,'kyash_expires');
-            $dateTime = new DateTime("@".$kc_expires_on);
+			$kyash_code = KyashHelper::getKyashOrder($order->id,'kyash_code');
+            $kc_expires_on = KyashHelper::getKyashOrder($order->id,'kyash_expires');
+            $dateTime = new DateTime($kc_expires_on);
             $dateTime->setTimeZone(new DateTimeZone('Asia/Kolkata'));
             $expires_on = $dateTime->format("j M Y, g:i A");
 			$url = get_home_url().'/?action=kyash-get-paypoints-success';
